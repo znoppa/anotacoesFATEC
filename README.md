@@ -32,10 +32,63 @@ As anotações seguem um processo estruturado:
 
 ## 🧩 Estrutura do Repositório
 
-```bash
+```
 📁 semestre-1/
 📁 semestre-2/
 📁 semestre-3/
 📁 semestre-4/
 📁 semestre-5/
 📁 semestre-6/
+```
+Dentro de cada semestre podemos encontrar a pasta referente a matéria, aulas marcadas com datas, conteúdos e exercicios.
+
+```
+📁 disciplina/
+ ├── 📄 aula-01.md
+ ├── 📄 aula-02.md
+ ├── 📄 resumo.md
+ └── 📄 exercicios.md
+```
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Markdown (.md)
+- Obsidian
+- Git & GitHub
+- Inteligência Artificial como suporte de estudo
+
+---
+
+## 🎯 Objetivo Final
+
+Criar uma base sólida que:
+
+- Sirva como material de estudo para provas e projetos
+- Apoie o desenvolvimento profissional
+- Funcione como referência futura na carreira
+- Documente a evolução durante a graduação
+
+---
+
+## 📌 Observações
+
+1. As anotações podem conter simplificações para fins didáticos
+2. O conteúdo está em constante atualização
+3. Estrutura e organização podem evoluir ao longo do tempo
+
+---
+
+## ⭐ Contribuição
+
+Embora seja um repositório pessoal, sugestões são bem-vindas!
+Sinta-se livre para abrir uma issue ou contribuir com ideias.
+
+---
+
+## 🤝 Colaboração
+
+Este projeto é desenvolvido por:
+
+- Vitor Reis
+- Miguel Zimmermann Martins Silva (Codinome: Mestre do Universo) 🚀
