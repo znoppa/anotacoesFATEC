@@ -1,0 +1,4 @@
+C:\Users\aluno\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S "D:\FATEC\Anotações Fatec\Algoritmos e lógica de programação\Aula 006 - Exercicios\Exercicios" -B "D:\FATEC\Anotações Fatec\Algoritmos e lógica de programação\Aula 006 - Exercicios\Exercicios\cmake-build-debug"
+-- Configuring done (0.1s)
+-- Generating done (1.3s)
+-- Build files have been written to: D:/FATEC/Anotações Fatec/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug
