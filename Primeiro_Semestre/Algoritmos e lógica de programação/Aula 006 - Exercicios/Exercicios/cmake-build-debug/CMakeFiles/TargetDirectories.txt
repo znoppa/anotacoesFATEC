@@ -1,3 +1,0 @@
-D:/FATEC/Anotações Fatec/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/Exercicios.dir
-D:/FATEC/Anotações Fatec/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/FATEC/Anotações Fatec/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/rebuild_cache.dir
