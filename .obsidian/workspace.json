@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semestre-1/Comunicação e Expressão/Semestre-1.md",
+                "file": "semestre-1/Algoritmos e lógica de programação/Aula 003.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Semestre-1"
+              "title": "Aula 003"
             }
           }
         ],
@@ -200,8 +200,14 @@
   },
   "active": "2b9c9bbe47828fa7",
   "lastOpenFiles": [
+    "semestre-1/Algoritmos e lógica de programação/Aula 006.md",
+    "semestre-1/Algoritmos e lógica de programação/Aula 005 - Exercícios.md",
+    "semestre-1/Imagens/Pasted image 20260210213930.png",
+    "semestre-1/Maratona Python/Aula 04.md",
+    "semestre-1/Maratona Python/Aula 02.md",
+    "semestre-1/Arquitetura e Organização/semestre-1_resumoprova.md",
+    "semestre-1/Comunicação e Expressão/Semestre-1.md",
     "semestre-1/Comunicação e Expressão",
-    "README.md",
-    "semestre-1/Comunicação e Expressão/Semestre-1.md"
+    "README.md"
   ]
 }
