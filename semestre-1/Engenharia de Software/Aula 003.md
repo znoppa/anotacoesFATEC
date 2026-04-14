@@ -110,6 +110,7 @@ O Sommerville destaca **três grandes vantagens**:
 Desenvolvimento de forma incremental (1° Encontro ----> Implementação)
 A cada entrega agregamos um valor ao nosso produto.
 
+
 1. ==**Custo reduzido para mudanças de requisitos**==
    - Como o software é feito em partes pequenas, a quantidade de análise e documentação que precisa ser refeita é **significativamente menor** do que no cascata
    - Se um requisito muda, você ajusta o incremento atual ou planeja para o próximo, sem refazer tudo

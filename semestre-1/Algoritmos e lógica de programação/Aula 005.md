@@ -1,0 +1,1 @@
+Exercícios em [[Primeiro Semestre/Algoritmos e lógica de programação/Aula 005]]

@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "semestre-1/Algoritmos e lógica de programação/Aula 003.md",
+                "file": "semestre-1/Engenharia de Software/Aula 006.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Aula 003"
+              "title": "Aula 006"
             }
           }
         ],
@@ -200,6 +200,25 @@
   },
   "active": "2b9c9bbe47828fa7",
   "lastOpenFiles": [
+    "Pasted image 20260413211336.png",
+    "semestre-1/Sistemas Operacionais/Materiais/PDFPROCESSOS.pdf",
+    "semestre-1/Sistemas Operacionais/Materiais/PDFPROCESSS.pdf",
+    "semestre-1/Sistemas Operacionais/Materiais/material_gerenciamento_de_memoria.PDF",
+    "semestre-1/Sistemas Operacionais/Materiais/exercicios_gereniamento_memoria.XLSX",
+    "semestre-1/Sistemas Operacionais/Materiais/exercicios_processos_respondido.XLSX",
+    "semestre-1/Sistemas Operacionais/Materiais/lu16504aauxn0.tmp",
+    "semestre-1/Sistemas Operacionais/Materiais/lu16504aauxmy.tmp",
+    "semestre-1/Engenharia de Software/resumo_metodos_desenvolvimento.md",
+    "semestre-1/Engenharia de Software/Aula 006.md",
+    "semestre-1/Engenharia de Software/Atividades/ADS - ESI(noite) Atividade - Processos de SW.pdf",
+    "semestre-1/Engenharia de Software/Atividades",
+    "semestre-1/Engenharia de Software/Não confirmado 635399.crdownload",
+    "semestre-1/Engenharia de Software/Aula 003.md",
+    "semestre-1/Engenharia de Software/Aula 004.md",
+    "semestre-1/Engenharia de Software/Aula 005.md",
+    "semestre-1/Engenharia de Software/Aula 002.md",
+    "semestre-1/Engenharia de Software/Aula 001.md",
+    "semestre-1/Algoritmos e lógica de programação/Aula 003.md",
     "semestre-1/Algoritmos e lógica de programação/Aula 006.md",
     "semestre-1/Algoritmos e lógica de programação/Aula 005 - Exercícios.md",
     "semestre-1/Imagens/Pasted image 20260210213930.png",
@@ -207,7 +226,6 @@
     "semestre-1/Maratona Python/Aula 02.md",
     "semestre-1/Arquitetura e Organização/semestre-1_resumoprova.md",
     "semestre-1/Comunicação e Expressão/Semestre-1.md",
-    "semestre-1/Comunicação e Expressão",
     "README.md"
   ]
 }

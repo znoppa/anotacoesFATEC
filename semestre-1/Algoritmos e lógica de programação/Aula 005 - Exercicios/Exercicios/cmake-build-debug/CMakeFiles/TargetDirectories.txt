@@ -1,3 +1,3 @@
-D:/FATEC/Maromo71/Aula 006 - Exercicios/ex1/cmake-build-debug/CMakeFiles/ex1.dir
-D:/FATEC/Maromo71/Aula 006 - Exercicios/ex1/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/FATEC/Maromo71/Aula 006 - Exercicios/ex1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/FATEC/Anotações Fatec/Primeiro Semestre/Algoritmos e lógica de programação/Aula 005 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/ex1.dir
+D:/FATEC/Anotações Fatec/Primeiro Semestre/Algoritmos e lógica de programação/Aula 005 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/FATEC/Anotações Fatec/Primeiro Semestre/Algoritmos e lógica de programação/Aula 005 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/rebuild_cache.dir

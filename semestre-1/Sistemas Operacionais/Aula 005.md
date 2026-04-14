@@ -4,6 +4,9 @@
 
 **Disciplina:** Sistemas Operacionais (ADS)
 **Professor:** Sandro Roberto Armelin
+Materiais:
+PDF: [[pdf memoria ram.PDF]]
+EXERCICIO: Não da pra adicionar o link, mas está em materiais
 
 ---
 

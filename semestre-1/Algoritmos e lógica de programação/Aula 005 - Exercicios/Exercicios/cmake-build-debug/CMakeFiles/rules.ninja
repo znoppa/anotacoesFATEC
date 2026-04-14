@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\Users\aluno\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"D:\FATEC\Maromo71\Aula 006 - Exercicios\ex1" -B"D:\FATEC\Maromo71\Aula 006 - Exercicios\ex1\cmake-build-debug"
+  command = C:\Users\aluno\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"D:\FATEC\Anotações Fatec\Primeiro Semestre\Algoritmos e lógica de programação\Aula 005 - Exercicios\Exercicios" -B"D:\FATEC\Anotações Fatec\Primeiro Semestre\Algoritmos e lógica de programação\Aula 005 - Exercicios\Exercicios\cmake-build-debug"
   description = Re-running CMake...
   generator = 1
 

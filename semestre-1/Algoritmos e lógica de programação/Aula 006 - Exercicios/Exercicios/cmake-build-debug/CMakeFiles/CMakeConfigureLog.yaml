@@ -132,6 +132,1433 @@ events:
         - "C:\\Users\\aluno\\flutter\\bin"
         - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
         - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
+      
+      The C compiler identification is GNU, found in:
+        D:/FATEC/Anotações Fatec/Primeiro Semestre/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/ar.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/ranlib.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/strip.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/ld.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/nm.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/objdump.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/objcopy.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/readelf.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/dlltool.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/addr2line.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/tapi.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/tapi.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/tapi"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/tapi.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/tapi.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/tapi"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/ProgramData/chocolatey/bin/tapi.com"
+      - "C:/ProgramData/chocolatey/bin/tapi.exe"
+      - "C:/ProgramData/chocolatey/bin/tapi"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/tapi"
+      - "C:/Program Files/nodejs/tapi.com"
+      - "C:/Program Files/nodejs/tapi.exe"
+      - "C:/Program Files/nodejs/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "C:/Program Files (x86)/IncrediBuild/tapi.com"
+      - "C:/Program Files (x86)/IncrediBuild/tapi.exe"
+      - "C:/Program Files (x86)/IncrediBuild/tapi"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/tapi.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/tapi.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/tapi"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/tapi.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/tapi.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/tapi"
+      - "C:/Users/aluno/AppData/Local/Python/bin/tapi.com"
+      - "C:/Users/aluno/AppData/Local/Python/bin/tapi.exe"
+      - "C:/Users/aluno/AppData/Local/Python/bin/tapi"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/tapi.com"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/tapi.exe"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/tapi"
+      - "C:/Users/aluno/flutter/bin/tapi.com"
+      - "C:/Users/aluno/flutter/bin/tapi.exe"
+      - "C:/Users/aluno/flutter/bin/tapi"
+      - "C:/Users/aluno/AppData/Roaming/npm/tapi.com"
+      - "C:/Users/aluno/AppData/Roaming/npm/tapi.exe"
+      - "C:/Users/aluno/AppData/Roaming/npm/tapi"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/tapi.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/tapi.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-13.1"
+      - "gcc-ar-13"
+      - "gcc-ar13"
+      - "gcc-ar"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ar-13.1"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-13.1.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-13.1.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-13.1"
+      - "C:/Windows/System32/gcc-ar-13.1.com"
+      - "C:/Windows/System32/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/gcc-ar-13.1"
+      - "C:/Windows/gcc-ar-13.1.com"
+      - "C:/Windows/gcc-ar-13.1.exe"
+      - "C:/Windows/gcc-ar-13.1"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.1"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.1.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.1.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.1"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.1.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.1.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.1"
+      - "C:/Program Files/nodejs/gcc-ar-13.1.com"
+      - "C:/Program Files/nodejs/gcc-ar-13.1.exe"
+      - "C:/Program Files/nodejs/gcc-ar-13.1"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.1"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ar-13.1.com"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ar-13.1.exe"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ar-13.1"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.1"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.1"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ar-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ar-13.1"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ar-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ar-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ar-13.1"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ar-13.1.com"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ar-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ar-13.1"
+      - "C:/Users/aluno/flutter/bin/gcc-ar-13.1.com"
+      - "C:/Users/aluno/flutter/bin/gcc-ar-13.1.exe"
+      - "C:/Users/aluno/flutter/bin/gcc-ar-13.1"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ar-13.1.com"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ar-13.1.exe"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ar-13.1"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ar-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ar-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ar-13.1"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar-13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar-13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar-13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ar-13"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-13.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-13.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar-13"
+      - "C:/Windows/System32/gcc-ar-13.com"
+      - "C:/Windows/System32/gcc-ar-13.exe"
+      - "C:/Windows/System32/gcc-ar-13"
+      - "C:/Windows/gcc-ar-13.com"
+      - "C:/Windows/gcc-ar-13.exe"
+      - "C:/Windows/gcc-ar-13"
+      - "C:/Windows/System32/wbem/gcc-ar-13.com"
+      - "C:/Windows/System32/wbem/gcc-ar-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-13"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar-13"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar-13"
+      - "C:/Program Files/nodejs/gcc-ar-13.com"
+      - "C:/Program Files/nodejs/gcc-ar-13.exe"
+      - "C:/Program Files/nodejs/gcc-ar-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-13"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ar-13.com"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ar-13.exe"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ar-13"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.com"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ar-13.exe"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ar-13"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar-13"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ar-13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ar-13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ar-13"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ar-13.com"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ar-13.exe"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ar-13"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ar-13.com"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ar-13.exe"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ar-13"
+      - "C:/Users/aluno/flutter/bin/gcc-ar-13.com"
+      - "C:/Users/aluno/flutter/bin/gcc-ar-13.exe"
+      - "C:/Users/aluno/flutter/bin/gcc-ar-13"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ar-13.com"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ar-13.exe"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ar-13"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ar-13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ar-13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ar-13"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ar13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ar13"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar13.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar13.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ar13"
+      - "C:/Windows/System32/gcc-ar13.com"
+      - "C:/Windows/System32/gcc-ar13.exe"
+      - "C:/Windows/System32/gcc-ar13"
+      - "C:/Windows/gcc-ar13.com"
+      - "C:/Windows/gcc-ar13.exe"
+      - "C:/Windows/gcc-ar13"
+      - "C:/Windows/System32/wbem/gcc-ar13.com"
+      - "C:/Windows/System32/wbem/gcc-ar13.exe"
+      - "C:/Windows/System32/wbem/gcc-ar13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar13"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar13"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar13.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar13.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ar13"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar13.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar13.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ar13"
+      - "C:/Program Files/nodejs/gcc-ar13.com"
+      - "C:/Program Files/nodejs/gcc-ar13.exe"
+      - "C:/Program Files/nodejs/gcc-ar13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar13"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ar13.com"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ar13.exe"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ar13"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ar13.com"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ar13.exe"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ar13"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ar13"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ar13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ar13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ar13"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ar13.com"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ar13.exe"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ar13"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ar13.com"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ar13.exe"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ar13"
+      - "C:/Users/aluno/flutter/bin/gcc-ar13.com"
+      - "C:/Users/aluno/flutter/bin/gcc-ar13.exe"
+      - "C:/Users/aluno/flutter/bin/gcc-ar13"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ar13.com"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ar13.exe"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ar13"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ar13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ar13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ar13"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-13.1"
+      - "gcc-ranlib-13"
+      - "gcc-ranlib13"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ranlib-13.1"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-13.1"
+      - "C:/Windows/System32/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/gcc-ranlib-13.1"
+      - "C:/Windows/gcc-ranlib-13.1.com"
+      - "C:/Windows/gcc-ranlib-13.1.exe"
+      - "C:/Windows/gcc-ranlib-13.1"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.1"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.1"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.1"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.1.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.1.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.1"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.1.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.1"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.1.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.1.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.1"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ranlib-13.1.com"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ranlib-13.1.exe"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ranlib-13.1"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.1"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.1"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.1"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ranlib-13.1"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ranlib-13.1.com"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ranlib-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ranlib-13.1"
+      - "C:/Users/aluno/flutter/bin/gcc-ranlib-13.1.com"
+      - "C:/Users/aluno/flutter/bin/gcc-ranlib-13.1.exe"
+      - "C:/Users/aluno/flutter/bin/gcc-ranlib-13.1"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ranlib-13.1.com"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ranlib-13.1.exe"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ranlib-13.1"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ranlib-13.1.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ranlib-13.1.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ranlib-13.1"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib-13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib-13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ranlib-13"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-13.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-13.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib-13"
+      - "C:/Windows/System32/gcc-ranlib-13.com"
+      - "C:/Windows/System32/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/gcc-ranlib-13"
+      - "C:/Windows/gcc-ranlib-13.com"
+      - "C:/Windows/gcc-ranlib-13.exe"
+      - "C:/Windows/gcc-ranlib-13"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-13"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib-13"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib-13"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.com"
+      - "C:/Program Files/nodejs/gcc-ranlib-13.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib-13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-13"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ranlib-13.com"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ranlib-13.exe"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ranlib-13"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.com"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13.exe"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-13"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib-13"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ranlib-13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ranlib-13"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ranlib-13.com"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ranlib-13.exe"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ranlib-13"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ranlib-13.com"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ranlib-13.exe"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ranlib-13"
+      - "C:/Users/aluno/flutter/bin/gcc-ranlib-13.com"
+      - "C:/Users/aluno/flutter/bin/gcc-ranlib-13.exe"
+      - "C:/Users/aluno/flutter/bin/gcc-ranlib-13"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ranlib-13.com"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ranlib-13.exe"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ranlib-13"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ranlib-13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ranlib-13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ranlib-13"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib13"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/gcc-ranlib13"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib13.com"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib13.exe"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/gcc-ranlib13"
+      - "C:/Windows/System32/gcc-ranlib13.com"
+      - "C:/Windows/System32/gcc-ranlib13.exe"
+      - "C:/Windows/System32/gcc-ranlib13"
+      - "C:/Windows/gcc-ranlib13.com"
+      - "C:/Windows/gcc-ranlib13.exe"
+      - "C:/Windows/gcc-ranlib13"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib13.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib13"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib13"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib13"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib13.com"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib13.exe"
+      - "C:/ProgramData/chocolatey/bin/gcc-ranlib13"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib13.com"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib13.exe"
+      - "C:/Program Files/Docker/Docker/resources/bin/gcc-ranlib13"
+      - "C:/Program Files/nodejs/gcc-ranlib13.com"
+      - "C:/Program Files/nodejs/gcc-ranlib13.exe"
+      - "C:/Program Files/nodejs/gcc-ranlib13"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib13"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ranlib13.com"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ranlib13.exe"
+      - "C:/Program Files (x86)/IncrediBuild/gcc-ranlib13"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.com"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13.exe"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/gcc-ranlib13"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/gcc-ranlib13"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ranlib13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ranlib13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/gcc-ranlib13"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ranlib13.com"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ranlib13.exe"
+      - "C:/Users/aluno/AppData/Local/Python/bin/gcc-ranlib13"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ranlib13.com"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ranlib13.exe"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/gcc-ranlib13"
+      - "C:/Users/aluno/flutter/bin/gcc-ranlib13.com"
+      - "C:/Users/aluno/flutter/bin/gcc-ranlib13.exe"
+      - "C:/Users/aluno/flutter/bin/gcc-ranlib13"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ranlib13.com"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ranlib13.exe"
+      - "C:/Users/aluno/AppData/Roaming/npm/gcc-ranlib13"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ranlib13.com"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ranlib13.exe"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/gcc-ranlib13"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake:2 (__windows_compiler_gnu)"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake:48 (include)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/"
+      - "C:/Program Files (x86)/Common Files/Intel/Shared Files/cpp/Bin/Intel64/"
+      - "C:/Program Files/Common Files/Oracle/Java/javapath/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/ProgramData/chocolatey/bin/"
+      - "C:/Program Files/Docker/Docker/resources/bin/"
+      - "C:/Program Files/nodejs/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "C:/Program Files (x86)/IncrediBuild/"
+      - "C:/Users/aluno/AppData/Local/Microsoft/WindowsApps/"
+      - "C:/Users/aluno/AppData/Local/Programs/Microsoft VS Code/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/Git/cmd/"
+      - "C:/Users/aluno/AppData/Local/Python/bin/"
+      - "C:/Users/aluno/AppData/Local/JetBrains/Toolbox/scripts/"
+      - "C:/Users/aluno/flutter/bin/"
+      - "C:/Users/aluno/AppData/Roaming/npm/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/bin/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/sbin/"
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/"
+      - "C:/Program Files (x86)/Exercicios/bin/"
+      - "C:/Program Files (x86)/Exercicios/sbin/"
+      - "C:/Program Files (x86)/Exercicios/"
+    searched_directories:
+      - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/windres.com"
+    found: "C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin"
+        - "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Files\\cpp\\bin\\Intel64"
+        - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
+        - "C:\\WINDOWS\\system32"
+        - "C:\\WINDOWS"
+        - "C:\\WINDOWS\\System32\\Wbem"
+        - "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\WINDOWS\\System32\\OpenSSH\\"
+        - "C:\\ProgramData\\chocolatey\\bin"
+        - "C:\\Program Files\\Docker\\Docker\\resources\\bin"
+        - "C:\\Program Files\\nodejs\\"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Program Files (x86)\\IncrediBuild"
+        - "C:\\Users\\aluno\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\Git\\cmd"
+        - "C:\\Users\\aluno\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\aluno\\AppData\\Local\\JetBrains\\Toolbox\\scripts"
+        - "C:\\Users\\aluno\\flutter\\bin"
+        - "C:\\Users\\aluno\\AppData\\Roaming\\npm"
+        - "C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\ninja\\win\\x64"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/Exercicios"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64"
+        - "C:/Program Files (x86)/Exercicios"
 
 ---
 events:
@@ -286,7 +1713,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        D:/FATEC/Anotações Fatec/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/a.exe
+        D:/FATEC/Anotações Fatec/Primeiro Semestre/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/4.1.2/CompilerIdC/a.exe
       
   -
     kind: "find-v1"
@@ -1702,8 +3129,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/FATEC/Anota\u00e7\u00f5es Fatec/Algoritmos e l\u00f3gica de programa\u00e7\u00e3o/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-512w2l"
-      binary: "D:/FATEC/Anota\u00e7\u00f5es Fatec/Algoritmos e l\u00f3gica de programa\u00e7\u00e3o/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-512w2l"
+      source: "D:/FATEC/Anota\u00e7\u00f5es Fatec/Primeiro Semestre/Algoritmos e l\u00f3gica de programa\u00e7\u00e3o/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yx4x3e"
+      binary: "D:/FATEC/Anota\u00e7\u00f5es Fatec/Primeiro Semestre/Algoritmos e l\u00f3gica de programa\u00e7\u00e3o/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yx4x3e"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -1712,10 +3139,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/FATEC/Anotações Fatec/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-512w2l'
+        Change Dir: 'D:/FATEC/Anotações Fatec/Primeiro Semestre/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yx4x3e'
         
-        Run Build Command(s): C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_ee4d3
-        [1/2] C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj -c C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7f1a9
+        [1/2] C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj -c C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -1723,8 +3150,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (GCC) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ee4d3.dir/'
-         C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ee4d3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\aluno\\AppData\\Local\\Temp\\ccac614l.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7f1a9.dir/'
+         C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7f1a9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\aluno\\AppData\\Local\\Temp\\ccHXSwHa.s
         GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.2.0-p4, MPC version 1.3.1, isl version none
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
@@ -1742,13 +3169,13 @@ events:
          C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ee4d3.dir/'
-         as -v -o CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj C:\\Users\\aluno\\AppData\\Local\\Temp\\ccac614l.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7f1a9.dir/'
+         as -v -o CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj C:\\Users\\aluno\\AppData\\Local\\Temp\\ccHXSwHa.s
         GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40
         COMPILER_PATH=C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.'\x0d
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj -o cmTC_ee4d3.exe -Wl,--out-implib,libcmTC_ee4d3.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.'\x0d
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl,-v CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj -o cmTC_7f1a9.exe -Wl,--out-implib,libcmTC_7f1a9.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -1759,12 +3186,12 @@ events:
         gcc version 13.1.0 (GCC) 
         COMPILER_PATH=C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/
         LIBRARY_PATH=C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee4d3.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ee4d3.'
-         C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ee4d3.exe C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ee4d3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7f1a9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7f1a9.'
+         C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7f1a9.exe C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_7f1a9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_ee4d3.exe C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ee4d3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
+        C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_7f1a9.exe C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_7f1a9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d
         GNU ld (GNU Binutils) 2.40\x0d
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee4d3.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ee4d3.'\x0d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7f1a9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7f1a9.'\x0d
         
       exitCode: 0
   -
@@ -1799,10 +3226,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'D:/FATEC/Anotações Fatec/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-512w2l']
+        ignore line: [Change Dir: 'D:/FATEC/Anotações Fatec/Primeiro Semestre/Algoritmos e lógica de programação/Aula 006 - Exercicios/Exercicios/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-yx4x3e']
         ignore line: []
-        ignore line: [Run Build Command(s): C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_ee4d3]
-        ignore line: [[1/2] C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj -c C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): C:/Users/aluno/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -v cmTC_7f1a9]
+        ignore line: [[1/2] C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj -c C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -1810,8 +3237,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ee4d3.dir/']
-        ignore line: [ C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_ee4d3.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\aluno\\AppData\\Local\\Temp\\ccac614l.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7f1a9.dir/']
+        ignore line: [ C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1.exe -quiet -v -iprefix C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_7f1a9.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=nocona -version -fdiagnostics-color=always -o C:\\Users\\aluno\\AppData\\Local\\Temp\\ccHXSwHa.s]
         ignore line: [GNU C17 (GCC) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.2.0-p4  MPC version 1.3.1  isl version none]
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
@@ -1829,8 +3256,8 @@ events:
         ignore line: [ C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: 2aa4fcf5c9208168c5e2d38a58fc2a97]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ee4d3.dir/']
-        ignore line: [ as -v -o CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj C:\\Users\\aluno\\AppData\\Local\\Temp\\ccac614l.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7f1a9.dir/']
+        ignore line: [ as -v -o CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj C:\\Users\\aluno\\AppData\\Local\\Temp\\ccHXSwHa.s]
         ignore line: [GNU assembler version 2.40 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.40]
         ignore line: [COMPILER_PATH=C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/]
@@ -1840,8 +3267,8 @@ events:
         ignore line: [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../\x0d]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.'\x0d]
-        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj -o cmTC_ee4d3.exe -Wl --out-implib libcmTC_ee4d3.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=nocona' '-dumpdir' 'CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.'\x0d]
+        ignore line: [[2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe  -v -Wl -v CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj -o cmTC_7f1a9.exe -Wl --out-implib libcmTC_7f1a9.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -1858,14 +3285,14 @@ events:
         ignore line: [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ee4d3.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_ee4d3.']
-        link line: [ C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_ee4d3.exe C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ee4d3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_7f1a9.exe' '-mtune=generic' '-march=nocona' '-dumpdir' 'cmTC_7f1a9.']
+        link line: [ C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -m i386pep -Bdynamic -o cmTC_7f1a9.exe C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_7f1a9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-m] ==> ignore
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_ee4d3.exe] ==> ignore
+          arg [cmTC_7f1a9.exe] ==> ignore
           arg [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -1875,9 +3302,9 @@ events:
           arg [-LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib] ==> dir [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_ee4d3.dll.a] ==> ignore
+          arg [libcmTC_7f1a9.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -1905,7 +3332,7 @@ events:
           arg [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o] ==> obj [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o]
           arg [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o] ==> obj [C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
         ignore line: [collect2 version 13.1.0]
-        ignore line: [C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_ee4d3.exe C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_ee4d3.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_ee4d3.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
+        ignore line: [C:\\Users\\aluno\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin/ld.exe -m i386pep -Bdynamic -o cmTC_7f1a9.exe C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v CMakeFiles/cmTC_7f1a9.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_7f1a9.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o\x0d]
         linker tool for 'C': C:/Users/aluno/AppData/Local/Programs/CLion/bin/mingw/bin/ld.exe
         remove lib [gcc_eh]
         remove lib [msvcrt]

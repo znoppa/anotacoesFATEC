@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/cmake-build-debug/
+cmake_ninja_workdir = D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/cmake-build-debug/
 # =============================================================================
 # Object build statements for EXECUTABLE target ex1
 
@@ -49,145 +49,185 @@ cmake_ninja_workdir = D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/cmake-buil
 
 build cmake_object_order_depends_target_ex1: phony || .
 
-build CMakeFiles/ex1.dir/ex01.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex01.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex01.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex01.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex01.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex02.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex02.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex02.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex02.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex02.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex03.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex03.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex03.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex03.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex03.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex04.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex04.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex04.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex04.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex04.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex05.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex05.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex05.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex05.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex05.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex06.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex06.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex06.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex06.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex06.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex07.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex07.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex07.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex07.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex07.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex08.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex08.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex08.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex08.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex08.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex09.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex09.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex09.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex09.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex09.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex10.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex10.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex10.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex10.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex10.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex11.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex11.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex11.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex11.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex11.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex12.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex12.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex12.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex12.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex12.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex13.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex13.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex13.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex13.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex13.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex14.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex14.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex14.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex14.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex14.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex15.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex15.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex15.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex15.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex15.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex16.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex16.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex16.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex16.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex16.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex17.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex17.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex17.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex17.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex17.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex18.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex18.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex18.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex18.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex18.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex19.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex19.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex19.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex19.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex19.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
-build CMakeFiles/ex1.dir/ex20.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/ex20.c || cmake_object_order_depends_target_ex1
+build CMakeFiles/ex1.dir/ex20.c.obj: C_COMPILER__ex1_unscanned_Debug D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/ex20.c || cmake_object_order_depends_target_ex1
   CONFIG = Debug
   DEP_FILE = CMakeFiles\ex1.dir\ex20.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\ex1.dir
   OBJECT_FILE_DIR = CMakeFiles\ex1.dir
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
+  TARGET_PDB = ex1.pdb
 
 
 # =============================================================================
@@ -204,16 +244,17 @@ build ex1.exe: C_EXECUTABLE_LINKER__ex1_Debug CMakeFiles/ex1.dir/ex01.c.obj CMak
   OBJECT_DIR = CMakeFiles\ex1.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
+  TARGET_COMPILE_PDB = CMakeFiles\ex1.dir\
   TARGET_FILE = ex1.exe
   TARGET_IMPLIB = libex1.dll.a
-  TARGET_PDB = ex1.exe.dbg
+  TARGET_PDB = ex1.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "D:\FATEC\Maromo71\Aula 006 - Exercicios\ex1\cmake-build-debug" && C:\Users\aluno\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "D:\FATEC\Anotações Fatec\Primeiro Semestre\Algoritmos e lógica de programação\Aula 005 - Exercicios\Exercicios\cmake-build-debug" && C:\Users\aluno\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -224,7 +265,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "D:\FATEC\Maromo71\Aula 006 - Exercicios\ex1\cmake-build-debug" && C:\Users\aluno\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"D:\FATEC\Maromo71\Aula 006 - Exercicios\ex1" -B"D:\FATEC\Maromo71\Aula 006 - Exercicios\ex1\cmake-build-debug""
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "D:\FATEC\Anotações Fatec\Primeiro Semestre\Algoritmos e lógica de programação\Aula 005 - Exercicios\Exercicios\cmake-build-debug" && C:\Users\aluno\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe --regenerate-during-build -S"D:\FATEC\Anotações Fatec\Primeiro Semestre\Algoritmos e lógica de programação\Aula 005 - Exercicios\Exercicios" -B"D:\FATEC\Anotações Fatec\Primeiro Semestre\Algoritmos e lógica de programação\Aula 005 - Exercicios\Exercicios\cmake-build-debug""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -242,14 +283,14 @@ build ex1: phony ex1.exe
 # =============================================================================
 
 #############################################
-# Folder: D:/FATEC/Maromo71/Aula 006 - Exercicios/ex1/cmake-build-debug
+# Folder: D:/FATEC/Anotações Fatec/Primeiro Semestre/Algoritmos e lógica de programação/Aula 005 - Exercicios/Exercicios/cmake-build-debug
 
 build codegen: phony
 
 # =============================================================================
 
 #############################################
-# Folder: D:/FATEC/Maromo71/Aula 006 - Exercicios/ex1/cmake-build-debug
+# Folder: D:/FATEC/Anotações Fatec/Primeiro Semestre/Algoritmos e lógica de programação/Aula 005 - Exercicios/Exercicios/cmake-build-debug
 
 build all: phony ex1.exe
 
@@ -260,14 +301,14 @@ build all: phony ex1.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/cmake-build-debug/cmake_install.cmake: RERUN_CMAKE | C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeRCInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-windres.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeRCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/CMakeLists.txt
+build build.ninja D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/cmake-build-debug/cmake_install.cmake: RERUN_CMAKE | C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCompilerIdDetection.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeRCCompiler.cmake.in C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeRCInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystem.cmake.in C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCompilerCommon.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestRCCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-windres.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeRCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeRCInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-windres.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeRCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake D$:/FATEC/Maromo71/Aula$ 006$ -$ Exercicios/ex1/CMakeLists.txt: phony
+build C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompiler.cmake.in C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCCompilerABI.c C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCommonLanguageInclude.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeCompilerIdDetection.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineCompilerSupport.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineRCCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeGenericSystem.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeInitializeConfigs.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeLanguageInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseImplicitIncludeInfo.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseImplicitLinkInfo.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeParseLibraryArchitecture.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeRCCompiler.cmake.in C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeRCInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystem.cmake.in C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeSystemSpecificInitialize.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestCompilerCommon.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/CMakeTestRCCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/ADSP-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/ARMCC-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/ARMClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/AppleClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Borland-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Bruce-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Clang-DetermineCompilerInternal.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Compaq-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Cray-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/CrayClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Diab-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Embarcadero-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Fujitsu-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GHS-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU-FindBinUtils.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/HP-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IAR-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Intel-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/LCC-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/MSVC-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/NVHPC-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/NVIDIA-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/OrangeC-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/PGI-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/PathScale-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Renesas-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SCO-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SDCC-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/SunPro-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/TI-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/TIClang-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Tasking-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/Watcom-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/XL-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/XLClang-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Compiler/zOS-C-DetermineCompiler.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCLinkerInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeCommonLinkerInformation.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/CMakeInspectCLinker.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Internal/FeatureTesting.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Linker/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Linker/Windows-GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU-C.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-GNU.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-Initialize.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows-windres.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/Windows.cmake C$:/Users/aluno/AppData/Local/Programs/CLion/bin/cmake/win/x64/share/cmake-4.1/Modules/Platform/WindowsPaths.cmake CMakeCache.txt CMakeFiles/4.1.2/CMakeCCompiler.cmake CMakeFiles/4.1.2/CMakeRCCompiler.cmake CMakeFiles/4.1.2/CMakeSystem.cmake D$:/FATEC/Anotações$ Fatec/Primeiro$ Semestre/Algoritmos$ e$ lógica$ de$ programação/Aula$ 005$ -$ Exercicios/Exercicios/CMakeLists.txt: phony
 
 
 #############################################

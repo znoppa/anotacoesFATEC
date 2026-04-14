@@ -74,11 +74,11 @@ Criado em *http://agilemanifesto.org* pelos principais desenvolvedores desses m�
 > *"Estamos descobrindo maneiras melhores de desenvolver software, fazendo-o nós mesmos e ajudando outros a fazerem o mesmo. Através deste trabalho passamos a valorizar:"*
 
 | ✅ Valorizamos MAIS (Esquerda) | ⚖️ Tem valor, mas valorizamos MENOS (Direita) |
-|:---|:---|
-| **Indivíduos e interações** | ~~Processos e ferramentas~~ |
-| **Software em funcionamento** | ~~Documentação abrangente~~ |
-| **Colaboração com o cliente** | ~~Negociação de contratos~~ |
-| **Responder a mudanças** | ~~Seguir um plano~~ |
+| :---------------------------- | :-------------------------------------------- |
+| **Indivíduos e interações**   | ~~Processos e ferramentas~~                   |
+| **Software em funcionamento** | ~~Documentação abrangente~~                   |
+| **Colaboração com o cliente** | ~~Negociação de contratos~~                   |
+| **Responder a mudanças**      | ~~Seguir um plano~~                           |
 
 > ⚠️ **Importante:** O manifesto não diz que os itens da direita não têm valor. Ele diz que os da esquerda são **mais** valorizados.
 
@@ -114,10 +114,10 @@ O slide 8 apresenta uma figura comparando as duas abordagens. Veja a representa�
 ╠══════════════════════════════════════════════════════════════════════╣
 ║                                                                      ║
 ║  [Requisitos]                                                        ║
-║       ↕  ↖──────────────────────────────────┐                       ║
-║  [Projeto/Design] ←──────────────────────── │                       ║
-║       ↕                                     │                       ║
-║  [Implementação] ──── feedback continuo ────┘                       ║
+║       ↕  ↖──────────────────────────────────┐                  ║
+║  [Projeto/Design] ←────────────────────────  │                  ║
+║       ↕                                           │                  ║
+║  [Implementação] ──── feedback continuo ────────┘                  ║
 ║                                                                      ║
 ║  • A iteração ocorre AO LONGO de TODAS as atividades                 ║
 ║  • Requisitos e design são desenvolvidos JUNTOS, não separados       ║
@@ -134,10 +134,12 @@ O slide 8 apresenta uma figura comparando as duas abordagens. Veja a representa�
 
 Os métodos ágeis funcionam especialmente bem em dois cenários:
 
-1. **Produto pequeno ou médio** desenvolvido por uma empresa de software para venda. *Praticamente todos os aplicativos e produtos de software atuais usam abordagem ágil.*
+1. **Produto pequeno ou médio** desenvolvido por uma empresa de software para venda. 
+		- *Praticamente todos os aplicativos e produtos de software atuais usam abordagem ágil.*
+
 2. **Sistemas personalizados** dentro de uma organização, onde:
    - Há comprometimento claro do cliente em se envolver no processo
-   - Há poucos stakeholders externos
+   - Há poucos stakeholders(Programadores) externos
    - Há poucas normas regulatórias que afetam o software
 
 ### Por que funciona nesses casos?
@@ -150,11 +152,13 @@ Os métodos ágeis funcionam especialmente bem em dois cenários:
 ## 🔥 8. Programação Extrema (XP) — A Abordagem Mais Importante
 
 ### O que é?
-Criada por **Kent Beck** no final dos anos 1990. O nome vem da ideia de levar boas práticas de desenvolvimento a níveis **"extremos"**. Exemplo prático: várias versões novas de um sistema podem ser **desenvolvidas, integradas e testadas em um único dia** por diferentes programadores.
+Criada por **Kent Beck** no final dos anos 1990. O nome vem da ideia de levar boas práticas de desenvolvimento a níveis **"extremos"**. 
+
+Exemplo prático: várias versões novas de um sistema podem ser **desenvolvidas, integradas e testadas em um único dia** por diferentes programadores.
 
 ### O Ciclo de Lançamento da XP (Slide 21)
 
-```text
+```
         ┌──────────────────────────────────────────┐
         │                                          │
         ▼                                          │
@@ -186,25 +190,26 @@ Criada por **Kent Beck** no final dos anos 1990. O nome vem da ideia de levar bo
  ┌──────────────────────────┐                      │
  │  Avaliar o sistema       │──────────────────────┘
  └──────────────────────────┘
-         (Feedback e novo ciclo)
+     (Feedback e novo ciclo)
+
 ```
 
 ---
 
 ## 📋 9. As 10 Práticas da Programação Extrema (Tabela Completa dos Slides 25 e 26)
 
-| Prática | Descrição Completa |
-|:---|:---|
-| **Propriedade Coletiva** | Os pares de desenvolvedores trabalham em TODAS as áreas do sistema. Não se criam "ilhas de conhecimento". Qualquer desenvolvedor pode alterar qualquer parte do código. |
-| **Integração Contínua** | Assim que uma tarefa é concluída, ela é integrada ao sistema completo. Após cada integração, **TODOS os testes de unidade devem passar**. |
-| **Planejamento Incremental** | Os requisitos são registrados em **cartões de história**. As histórias a incluir em um lançamento são determinadas pelo **tempo disponível e prioridade**. Desenvolvedores decompõem histórias em tarefas. |
-| **Representante do Cliente** | Um representante do usuário final deve estar **disponível em tempo integral** junto ao time. Ele é membro ativo do time, responsável por levar os requisitos para implementação. |
-| **Programação em Pares** | Desenvolvedores trabalham em duplas, conferindo o trabalho um do outro e oferecendo suporte mútuo. |
-| **Refatoração** | Todo desenvolvedor deve **refatorar continuamente** o código ao encontrar possíveis melhorias, mantendo o código simples e de fácil manutenção. |
-| **Projeto Simples** | Deve-se fazer apenas o **suficiente de design** para satisfazer os requisitos atuais, sem antecipar desnecessariamente mudanças futuras. |
-| **Lançamentos Pequenos** | O mínimo de funcionalidade útil que **agrega valor ao negócio** é desenvolvido primeiro. Os lançamentos são frequentes e acrescentam funcionalidade incrementalmente. |
-| **Ritmo Sustentável** | Grandes quantidades de horas extras **não são aceitáveis**, pois diminuem a qualidade do código e a produtividade no médio prazo. |
-| **Desenvolvimento com Testes a Priori (test-first)** | Um framework automatizado de testes de unidade é utilizado para **escrever os testes ANTES** de implementar a funcionalidade. |
+| Prática                                              | Descrição Completa                                                                                                                                                                                         |
+| :--------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Propriedade Coletiva**                             | Os pares de desenvolvedores trabalham em TODAS as áreas do sistema. Não se criam "ilhas de conhecimento". Qualquer desenvolvedor pode alterar qualquer parte do código.                                    |
+| **Integração Contínua**                              | Assim que uma tarefa é concluída, ela é integrada ao sistema completo. Após cada integração, **TODOS os testes de unidade devem passar**.                                                                  |
+| **Planejamento Incremental**                         | Os requisitos são registrados em **cartões de história**. As histórias a incluir em um lançamento são determinadas pelo **tempo disponível e prioridade**. Desenvolvedores decompõem histórias em tarefas. |
+| **Representante do Cliente**                         | Um representante do usuário final deve estar **disponível em tempo integral** junto ao time. Ele é membro ativo do time, responsável por levar os requisitos para implementação.                           |
+| **Programação em Pares**                             | Desenvolvedores trabalham em duplas, conferindo o trabalho um do outro e oferecendo suporte mútuo.                                                                                                         |
+| **Refatoração**                                      | Todo desenvolvedor deve **refatorar continuamente** o código ao encontrar possíveis melhorias, mantendo o código simples e de fácil manutenção.                                                            |
+| **Projeto Simples**                                  | Deve-se fazer apenas o **suficiente de design** para satisfazer os requisitos atuais, sem antecipar desnecessariamente mudanças futuras.                                                                   |
+| **Lançamentos Pequenos**                             | O mínimo de funcionalidade útil que **agrega valor ao negócio** é desenvolvido primeiro. Os lançamentos são frequentes e acrescentam funcionalidade incrementalmente.                                      |
+| **Ritmo Sustentável**                                | Grandes quantidades de horas extras **não são aceitáveis**, pois diminuem a qualidade do código e a produtividade no médio prazo.                                                                          |
+| **Desenvolvimento com Testes a Priori (test-first)** | Um framework automatizado de testes de unidade é utilizado para **escrever os testes ANTES** de implementar a funcionalidade.                                                                              |
 
 > ⚠️ **Nota do Professor (Slide 26):** *"Não estou convencido de que a Programação Extrema seja um método ágil prático para a maioria das empresas, mas sua contribuição mais importante é, provavelmente, o conjunto de práticas de desenvolvimento ágil que introduziu na comunidade."*
 
@@ -259,10 +264,10 @@ CARTÃO DE HISTÓRIA: Prescrição de Medicação
 
 A história é decomposta em tarefas menores pelo time:
 
-| Tarefa | Descrição |
-|:---|:---|
-| **Tarefa 1** | Mudar a dose do medicamento prescrito |
-| **Tarefa 2** | Seleção de Substância |
+| Tarefa                             | Descrição                                                                                                                                                                                                                  |
+| :--------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Tarefa 1**                       | Mudar a dose do medicamento prescrito                                                                                                                                                                                      |
+| **Tarefa 2**                       | Seleção de Substância                                                                                                                                                                                                      |
 | **Tarefa 3 — Verificação de Dose** | Usando o ID da substância, buscar dose máxima e mínima recomendadas → Comparar com a dose prescrita → Se fora da faixa: emitir mensagem de erro (alta ou baixa demais) → Se dentro da faixa: habilitar botão `<Confirmar>` |
 
 ### Como as Histórias se Encaixam no Processo?

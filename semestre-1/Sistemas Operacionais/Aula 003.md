@@ -86,7 +86,7 @@ apt-get install gcc
 **Disciplina:** Sistemas Operacionais (ADS)
 **Professor:** Sandro Roberto Armelin
 
-[[PDFESCALONAMENTO.pdf]] - Material desta Aula
+[[Primeiro Semestre/Sistemas Operacionais/Materiais/PDFESCALONAMENTO.pdf]] - Material desta Aula
 
 ---
 
@@ -336,5 +336,5 @@ No tempo 0, apenas A e B estão disponíveis. A é menor (2), então executa pri
 - Exemplo:
   *"No caixa do supermercado, quando A (2 itens) e B (4 itens) chegam juntos, A vai primeiro. Mas quando B já está sendo atendido e C, D e E chegam com 1 item cada, eles precisam esperar B terminar — porque o caixa não pode parar no meio do atendimento."*
 
-# acabou neste exemplo - continuação na [[Sistemas Operacionais/Aula 004|Aula 004]]
+# acabou neste exemplo - continuação na [[Primeiro Semestre/Sistemas Operacionais/Aula 004|Aula 004]]
 ---
