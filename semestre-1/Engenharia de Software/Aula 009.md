@@ -1,5 +1,19 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Engenharia de Software
+aula: 9
+data: 2026-05-11
+status: em-revisao
+revisao: false
+aliases:
+  - ES 009 — UML e casos de uso
+tags:
+  - ads/semestre-1
+  - disciplina/engenharia-software
+---
+
 11/05/2026
-Tranquilo, Mestre do Universo! 🎯 Agora com o PDF oficial da aula em mãos, vou refazer as anotações completas e organizadas.
 
 ---
 

@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 8
+data: 2026-04-14
+status: em-revisao
+revisao: false
+aliases:
+  - SO 008 — chmod, chown e grupos
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
+---
+
 **Data:** 14/04
 
 ---

@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Arquitetura e Organização
+aula: 8
+data: 2026-04-16
+status: em-revisao
+revisao: false
+aliases:
+  - AOC 008 — Memória e Assembly
+tags:
+  - ads/semestre-1
+  - disciplina/arquitetura
+---
+
 16/04/2026
 
 # Assembly — Recapitulação: Memória do Processador
@@ -108,8 +123,6 @@ O **IR** é o único registrador com **16 bits** porque:
 
 > 📌 Resumindo: os registradores de **dados e endereços** (ACC, PC, REM, RDM) acompanham o barramento de **8 bits**, enquanto o **IR** é maior para comportar a instrução completa com margem de expansão.
 
-Precisa de mais algum ajuste, Mestre do Universo? 🚀
-
 ## Por que instruções de subtração, multiplicação e divisão são "obsoletas"
 
 ---
@@ -204,7 +217,8 @@ Conta-se **quantas subtrações** foram feitas até chegar em zero (ou negativo)
 
 ---
 
-> 🔑 **Conclusão, Mestre do Universo:** Teoricamente, um processador só precisa de **ADD, NOT e JMP** para fazer qualquer operação aritmética. Na prática, incluímos SUB, MUL e DIV no hardware porque fazer por soma/subtração sucessiva é **muito lento** — circuitos dedicados são ordens de grandeza mais rápidos.
+> [!important] Conclusão
+> Teoricamente, um processador só precisa de **ADD, NOT e JMP** para fazer qualquer operação aritmética. Na prática, incluímos SUB, MUL e DIV no hardware porque fazer por soma/subtração sucessiva é **muito lento** — circuitos dedicados são ordens de grandeza mais rápidos.
 
 # Programa em Assembly
 Programa que decresce de 10 

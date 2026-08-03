@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 5
+data: 2026-03-24
+status: em-revisao
+revisao: false
+aliases:
+  - SO 005 — Gerenciamento de memória
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
+---
+
 	24/03/2026
 
 # Resumo Completo: Gerenciamento de Memória
@@ -5,7 +20,7 @@
 **Disciplina:** Sistemas Operacionais (ADS)
 **Professor:** Sandro Roberto Armelin
 Materiais:
-PDF: [[pdf memoria ram.PDF]]
+PDF: [[semestre-1/Sistemas Operacionais/Materiais/material_gerenciamento_de_memoria.PDF|Material de gerenciamento de memória]]
 EXERCICIO: Não da pra adicionar o link, mas está em materiais
 
 ---
@@ -65,7 +80,8 @@ Na prática, a RAM frequentemente não é grande o suficiente para todos os proc
 - Se o programa não preenchesse toda a memória, o espaço restante ficava **desperdiçado**.
 - Programas estavam **limitados ao tamanho da RAM**.
 
-![[alocacaocontiguasimples.png]]
+> [!warning] Diagrama não localizado
+> A imagem de alocação contígua citada na nota original não estava no repositório. Consulte o PDF da aula acima.
 - Exemplo:
   *"Como um apartamento onde metade é reservada ao porteiro (SO) e a outra metade ao morador. Se o morador só usar 1 quarto, o restante fica vazio sem ninguém poder usar."*
 
@@ -74,7 +90,8 @@ Na prática, a RAM frequentemente não é grande o suficiente para todos os proc
 - O programador define quais módulos compartilham o espaço.
 - Exemplo: Programa com Módulo Principal (3KB) + Módulo Cadastro (4KB) + Módulo Impressão (4KB). A área de overlay (4KB) é compartilhada pelos dois módulos de acordo com a necessidade.
 - **Desvantagem:** A definição das áreas é responsabilidade do **programador**, e ainda pode haver espaço não utilizado.
-![[tecnicaoverlay.png]]
+> [!warning] Diagrama não localizado
+> A imagem da técnica de overlay citada na nota original não estava no repositório. Consulte o PDF da aula acima.
 - Exemplo:
   *"É como um quarto de hóspedes: quando o parente A visita, ele usa o quarto. Quando vai embora e vem o parente B, o mesmo quarto é dele. O quarto é compartilhado, mas nunca pelos dois ao mesmo tempo."*
 
@@ -86,7 +103,8 @@ Na prática, a RAM frequentemente não é grande o suficiente para todos os proc
 - Vários programas podem ficar na memória ao mesmo tempo.
 - Cada programa é carregado em uma partição **compatível com seu tamanho**.
 
-![[alocacaoparticionadaestatica.png]]
+> [!warning] Diagrama não localizado
+> A imagem de alocação particionada estática citada na nota original não estava no repositório. Consulte o PDF da aula acima.
 - **Problema: Fragmentação Interna** — os programas raramente preenchem exatamente a partição, desperdiçando espaço dentro dela.
 
 - Exemplo:
@@ -100,7 +118,8 @@ Na prática, a RAM frequentemente não é grande o suficiente para todos os proc
 - Cada programa ocupa **exatamente o espaço que precisa**.
 - **Não há fragmentação interna**.
 
-![[alocacaoparticionadadinamica.png]]
+> [!warning] Diagrama não localizado
+> A imagem de alocação particionada dinâmica citada na nota original não estava no repositório. Consulte o PDF da aula acima.
 
 - **Novo problema: Fragmentação Externa** — quando programas terminam, deixam "buracos" na memória que podem ser pequenos demais para novos processos.
 
@@ -270,7 +289,8 @@ Quando ocorre um Page Fault e não há frames livres, o SO precisa **escolher qu
 Fila: [Mais antiga → ... → Mais recente]
        ↑ Remove daqui              ↑ Entra aqui
 ```
-![[Pasted image 20260324212100.png]]
+> [!warning] Exemplo visual não localizado
+> A captura do exemplo FIFO citada na nota original não estava no repositório.
 - Exemplo:
   *"É como uma geladeira onde você sempre joga fora o item mais antigo para abrir espaço. Problema: talvez o item mais antigo seja o leite que você usa todo dia, e o novo que entrou seja o molho de soja que fica meses sem usar."*
 
@@ -282,7 +302,8 @@ Fila: [Mais antiga → ... → Mais recente]
 - Remove a página que **não será mais usada no futuro**, ou que levará **mais tempo** para ser usada novamente.
 - **Impossível de implementar** na prática — exigiria conhecer o futuro.
 - Usado apenas como **modelo comparativo** em simulações para medir a eficiência dos demais algoritmos.
-![[Pasted image 20260324212116.png]]
+> [!warning] Exemplo visual não localizado
+> A captura do algoritmo ótimo citada na nota original não estava no repositório.
 - Exemplo:
   *"É como um oráculo que sabe exatamente o que você vai precisar amanhã. Ele joga fora exatamente o que você não vai usar por mais tempo. Perfeito na teoria, impossível na vida real."*
 

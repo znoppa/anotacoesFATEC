@@ -1,8 +1,23 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Projeto Integrador
+aula: 7
+data: 2026-04-10
+status: em-revisao
+revisao: false
+aliases:
+  - PI 007 — Requisitos
+tags:
+  - ads/semestre-1
+  - disciplina/projeto-integrador
+---
+
 
 
 # Projeto Integrador-1 — 10/04/2026
 
-Fala, Mestre do Universo! Vou completar suas anotações com descrições e exemplos de **Requisitos Funcionais** e **Não Funcionais**.
+Esta aula detalha **Requisitos Funcionais** e **Requisitos Não Funcionais**.
 
 ---
 

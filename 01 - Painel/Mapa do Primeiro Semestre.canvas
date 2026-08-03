@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    { "id": "home", "type": "file", "file": "01 - Painel/00 - Início.md", "x": -250, "y": -900, "width": 500, "height": 280, "color": "6" },
+    { "id": "semestre", "type": "file", "file": "01 - Painel/Primeiro Semestre.md", "x": -250, "y": -500, "width": 500, "height": 280, "color": "6" },
+    { "id": "alg", "type": "file", "file": "semestre-1/Algoritmos e lógica de programação/00 - Algoritmos e Lógica de Programação.md", "x": -1050, "y": -80, "width": 430, "height": 280, "color": "4" },
+    { "id": "python", "type": "file", "file": "semestre-1/Maratona Python/00 - Maratona Python.md", "x": -1050, "y": 300, "width": 430, "height": 260, "color": "4" },
+    { "id": "arq", "type": "file", "file": "semestre-1/Arquitetura e Organização/00 - Arquitetura e Organização.md", "x": -520, "y": -80, "width": 430, "height": 280, "color": "2" },
+    { "id": "so", "type": "file", "file": "semestre-1/Sistemas Operacionais/00 - Sistemas Operacionais.md", "x": -520, "y": 300, "width": 430, "height": 280, "color": "2" },
+    { "id": "es", "type": "file", "file": "semestre-1/Engenharia de Software/00 - Engenharia de Software.md", "x": 10, "y": -80, "width": 430, "height": 280, "color": "1" },
+    { "id": "pi", "type": "file", "file": "semestre-1/Projeto Integrador/00 - Projeto Integrador.md", "x": 10, "y": 300, "width": 430, "height": 280, "color": "1" },
+    { "id": "com", "type": "file", "file": "semestre-1/Comunicação e Expressão/00 - Comunicação e Expressão.md", "x": 540, "y": -80, "width": 430, "height": 280, "color": "5" },
+    { "id": "conexoes", "type": "file", "file": "01 - Painel/Conexões entre Disciplinas.md", "x": 540, "y": 300, "width": 430, "height": 280, "color": "5" }
+  ],
+  "edges": [
+    { "id": "e-home-sem", "fromNode": "home", "fromSide": "bottom", "toNode": "semestre", "toSide": "top", "color": "6" },
+    { "id": "e-sem-alg", "fromNode": "semestre", "fromSide": "bottom", "toNode": "alg", "toSide": "top", "color": "4" },
+    { "id": "e-sem-arq", "fromNode": "semestre", "fromSide": "bottom", "toNode": "arq", "toSide": "top", "color": "2" },
+    { "id": "e-sem-es", "fromNode": "semestre", "fromSide": "bottom", "toNode": "es", "toSide": "top", "color": "1" },
+    { "id": "e-sem-com", "fromNode": "semestre", "fromSide": "bottom", "toNode": "com", "toSide": "top", "color": "5" },
+    { "id": "e-alg-python", "fromNode": "alg", "fromSide": "bottom", "toNode": "python", "toSide": "top", "label": "aplica a lógica", "color": "4" },
+    { "id": "e-arq-so", "fromNode": "arq", "fromSide": "bottom", "toNode": "so", "toSide": "top", "label": "gerencia recursos", "color": "2" },
+    { "id": "e-es-pi", "fromNode": "es", "fromSide": "bottom", "toNode": "pi", "toSide": "top", "label": "orienta o projeto", "color": "1" },
+    { "id": "e-com-con", "fromNode": "com", "fromSide": "bottom", "toNode": "conexoes", "toSide": "top", "color": "5" },
+    { "id": "e-pi-con", "fromNode": "pi", "fromSide": "right", "toNode": "conexoes", "toSide": "left", "label": "integra disciplinas", "color": "5" }
+  ]
+}

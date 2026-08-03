@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 7
+data: 2026-04-14
+status: em-revisao
+revisao: false
+aliases:
+  - SO 007 — Linux e permissões
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
+---
+
 # Aula 007
 
 14/04/2026
@@ -59,16 +74,19 @@ O root é o superusuário em sistemas Unix/Linux. Ele possui controle tota
 
 Quando você executa `ls -l`, a saída é algo assim:
 
-bash
-
-```
-drwxr-xr-x  2  root  root  4096  abr 14 21:00  minha_pasta-rw-r--r--  1  root  root  1024  abr 14 21:00  arquivo.txt
+```bash
+drwxr-xr-x  2 root root 4096 abr 14 21:00 minha_pasta
+-rw-r--r--  1 root root 1024 abr 14 21:00 arquivo.txt
 ```
 
 A string de permissão tem 10 caracteres, divididos em 4 partes:
 
-```
-d | rwx | r-x | r-x│    │     │     ││    │     │     └── Outros (others) — todos os demais usuários│    │     └──────── Grupo (group) — grupo dono do arquivo│    └────────────── Dono (user/owner) — quem criou└─────────────────── Tipo do arquivo
+```text
+d | rwx | r-x | r-x
+│    │     │     └── Outros — todos os demais usuários
+│    │     └──────── Grupo — grupo dono do arquivo
+│    └────────────── Dono — quem criou
+└─────────────────── Tipo do arquivo
 ```
 
 ---

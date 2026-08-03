@@ -1,0 +1,49 @@
+/* Camada visual leve para páginas com cssclasses: dashboard ou moc. */
+.dashboard .markdown-preview-sizer,
+.moc .markdown-preview-sizer {
+  max-width: 1100px;
+}
+
+.dashboard h1,
+.moc h1 {
+  letter-spacing: -0.035em;
+  background: linear-gradient(90deg, #19d3c5, #6d8dff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.dashboard .callout,
+.moc .callout {
+  border-radius: 14px;
+  border-width: 1px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+}
+
+.dashboard .callout[data-callout="abstract"] {
+  --callout-color: 25, 211, 197;
+}
+
+.dashboard table,
+.moc table {
+  width: 100%;
+}
+
+.dashboard table thead,
+.moc table thead {
+  background: color-mix(in srgb, var(--interactive-accent) 15%, transparent);
+}
+
+.dashboard code,
+.moc code {
+  border-radius: 6px;
+}
+
+.dashboard .internal-link,
+.moc .internal-link {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+.status-bar {
+  border-top: 1px solid color-mix(in srgb, var(--interactive-accent) 25%, transparent);
+}

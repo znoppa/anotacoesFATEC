@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Projeto Integrador
+aula: 6
+data: 2026-03-27
+status: em-revisao
+revisao: false
+aliases:
+  - PI 006 — Relatório
+tags:
+  - ads/semestre-1
+  - disciplina/projeto-integrador
+---
+
+# Aula 006 — Documento e relatório do PI
+
 
 **Data: 27/03/2026**
 

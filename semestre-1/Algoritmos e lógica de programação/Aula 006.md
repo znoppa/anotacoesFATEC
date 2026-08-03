@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Algoritmos e Lógica de Programação
+aula: 6
+data: 2026-03-25
+status: em-revisao
+revisao: false
+aliases:
+  - ALP 006 — Estruturas de controle
+tags:
+  - ads/semestre-1
+  - disciplina/algoritmos
+---
+
 25/03/2026
 # 📘 Aula 006 — Estruturas de Controle (Resumo Completo)
 
@@ -446,4 +461,3 @@ match mes:
 | `do-while` | Repetição | Executa **pelo menos uma vez** (testa depois) |
 | `break` | Controle de laço | **Para** o loop imediatamente |
 | `continue` | Controle de laço | **Pula** a iteração atual |
-	

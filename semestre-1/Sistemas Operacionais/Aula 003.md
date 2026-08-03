@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 3
+data: 2026-03-03
+status: em-revisao
+revisao: false
+aliases:
+  - SO 003 — POSIX e escalonamento
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
+---
+
+# Aula 003 — Processos POSIX e escalonamento
+
 03/03/2026
 
 -----------------
@@ -86,7 +103,7 @@ apt-get install gcc
 **Disciplina:** Sistemas Operacionais (ADS)
 **Professor:** Sandro Roberto Armelin
 
-[[Primeiro Semestre/Sistemas Operacionais/Materiais/PDFESCALONAMENTO.pdf]] - Material desta Aula
+[[semestre-1/Sistemas Operacionais/Materiais/PDFESCALONAMENTO.pdf|PDF de escalonamento]] — Material desta aula
 
 ---
 
@@ -336,5 +353,6 @@ No tempo 0, apenas A e B estão disponíveis. A é menor (2), então executa pri
 - Exemplo:
   *"No caixa do supermercado, quando A (2 itens) e B (4 itens) chegam juntos, A vai primeiro. Mas quando B já está sendo atendido e C, D e E chegam com 1 item cada, eles precisam esperar B terminar — porque o caixa não pode parar no meio do atendimento."*
 
-# acabou neste exemplo - continuação na [[Primeiro Semestre/Sistemas Operacionais/Aula 004|Aula 004]]
+> [!tip] Continuação
+> O conteúdo continua na [[semestre-1/Sistemas Operacionais/Aula 004|Aula 004]].
 ---

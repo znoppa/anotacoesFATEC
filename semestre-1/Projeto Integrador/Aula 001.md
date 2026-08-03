@@ -1,7 +1,21 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Projeto Integrador
+aula: 1
+data: 2026-02-13
+status: em-revisao
+revisao: false
+aliases:
+  - PI 001 — Proposta e avaliação
+tags:
+  - ads/semestre-1
+  - disciplina/projeto-integrador
+---
+
 13/02/2026
 
-E-Mail da Professora:
-rita.catini@fatec.sp.gov.br
+Contato da professora: consulte o canal oficial da disciplina.
 
 # Proposta
 Desenvolvimento de um Projeto:

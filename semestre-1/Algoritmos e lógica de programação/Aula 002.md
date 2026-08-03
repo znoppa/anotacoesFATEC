@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Algoritmos e Lógica de Programação
+aula: 2
+data: 2026-02-25
+status: em-revisao
+revisao: false
+aliases:
+  - ALP 002 — Introdução à programação
+tags:
+  - ads/semestre-1
+  - disciplina/algoritmos
+---
+
+# Aula 002 — Introdução à programação
+
 25/02/2026
 
 Links de interesse
@@ -119,4 +136,3 @@ Código-fonte em Java (`.java`) → O javac (Java Compiler) compila o códi
 - Camada intermediária entre o software e  hardware.
 - Permitem portabilidade entre diferentes sistemas operacionais.
 - Usadas para execução simultânea de múltiplos sistemas.
-

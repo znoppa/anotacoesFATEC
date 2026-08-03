@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Algoritmos e Lógica de Programação
+aula: 7
+data: 2026-04-01
+status: em-revisao
+revisao: false
+aliases:
+  - ALP 007 — Laços e controle
+tags:
+  - ads/semestre-1
+  - disciplina/algoritmos
+---
+
+# Aula 007 — While, do-while, break e continue
+
 Data: 01/04/2026
 
 ----------

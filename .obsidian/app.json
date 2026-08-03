@@ -1,1 +1,11 @@
-{}
+{
+  "attachmentFolderPath": "semestre-1/Imagens",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 - Caixa de Entrada",
+  "useMarkdownLinks": false,
+  "showLineNumber": true,
+  "readableLineLength": true,
+  "showUnsupportedFiles": true,
+  "propertiesInDocument": "source"
+}

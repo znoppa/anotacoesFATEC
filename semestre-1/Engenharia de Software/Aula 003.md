@@ -1,4 +1,19 @@
-09/03/2008
+---
+tipo: aula
+semestre: 1
+disciplina: Engenharia de Software
+aula: 3
+data: 2026-03-09
+status: em-revisao
+revisao: false
+aliases:
+  - ES 003 — Desenvolvimento incremental
+tags:
+  - ads/semestre-1
+  - disciplina/engenharia-software
+---
+
+09/03/2026
 
 # 📘 Resumo Completo – Aula 4: Desenvolvimento Incremental
 

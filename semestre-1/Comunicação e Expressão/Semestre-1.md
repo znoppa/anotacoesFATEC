@@ -1,3 +1,17 @@
+---
+tipo: resumo
+semestre: 1
+disciplina: Comunicação e Expressão
+status: em-revisao
+revisao: false
+aliases:
+  - CE — Resumo do semestre
+tags:
+  - ads/semestre-1
+  - disciplina/comunicação
+  - conteúdo/revisão
+---
+
 
 # Comunicação e Expressão — Resumo
 
@@ -537,4 +551,3 @@ Cada elemento pode predominar numa função da linguagem:
 **Redundância** = repetição para reforço.  
 **Ruído** = interferência na comunicação.
 ```
-

@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Engenharia de Software
+aula: 8
+data: 2026-04-27
+status: em-revisao
+revisao: false
+aliases:
+  - ES 008 — Scrum
+tags:
+  - ads/semestre-1
+  - disciplina/engenharia-software
+---
+
 27/04/2026
 # 📅 Engenharia de Software I — Modelos Ágeis
 

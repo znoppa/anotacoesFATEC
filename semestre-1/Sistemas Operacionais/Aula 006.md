@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 6
+data: 2026-03-31
+status: em-revisao
+revisao: false
+aliases:
+  - SO 006 — Substituição de páginas
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
+---
+
+# Aula 006 — Algoritmos de substituição de páginas
+
 31/03/2026
 
 ### 9.4 LFU (Least Frequently Used — Menos Frequentemente Usada)

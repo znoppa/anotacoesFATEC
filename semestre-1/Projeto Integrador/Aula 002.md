@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Projeto Integrador
+aula: 2
+data: 2026-02-20
+status: em-revisao
+revisao: false
+aliases:
+  - PI 002 — Evolução e disciplinas-satélite
+tags:
+  - ads/semestre-1
+  - disciplina/projeto-integrador
+---
+
+# Aula 002 — Evolução do Projeto Integrador
+
 20/02/2026
 
 ### PI1
@@ -10,7 +27,7 @@ A partir do problema, deveremos apresentar uma solução após estudá-lo:
 - Desenvolvimento do UML e Banco de Dados do Sistema proposto
 
 O desenvolvimento do projeto será apoiado por diversos fatores:
-![[Pasted image 20260220193427.png]]
+![[PI21022026.png]]
 - O Coordenador do Curso
 	Ponte entre Instituição externa
 - Os Professores das Disciplinas-Satélites
@@ -19,5 +36,4 @@ O desenvolvimento do projeto será apoiado por diversos fatores:
 	Ajudará no desenvolvimento dos materiais de nota da matéria além de ser o principal guia nas partes que não envolvem uma metodologia técnica.
 - Empresa
 	Apresenta o problema em que se baseia a proposta do projeto-solução.
-
 

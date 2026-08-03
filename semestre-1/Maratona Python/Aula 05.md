@@ -1,3 +1,19 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Maratona Python
+aula: 5
+status: em-revisao
+revisao: false
+aliases:
+  - PY 005 — Filas
+tags:
+  - ads/semestre-1
+  - disciplina/python
+---
+
+# Aula 05 — Filas em Python
+
 ## 📚 Filas em Python (com exemplo prático)
 
 Uma **fila (queue)** é uma estrutura de dados que segue o princípio **FIFO (First In, First Out)** — ou seja, _o primeiro cliente que entra é o primeiro a ser atendido_.

@@ -1,0 +1,14 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "aula": "number",
+    "cssclasses": "multitext",
+    "data": "date",
+    "disciplina": "text",
+    "revisao": "checkbox",
+    "semestre": "number",
+    "status": "text",
+    "tags": "tags",
+    "tipo": "text"
+  }
+}

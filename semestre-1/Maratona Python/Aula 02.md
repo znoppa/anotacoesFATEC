@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Maratona Python
+aula: 2
+data: 2026-03-07
+status: em-revisao
+revisao: false
+aliases:
+  - PY 002 — Fundamentos e coleções
+tags:
+  - ads/semestre-1
+  - disciplina/python
+---
+
 Data: 07/03/2026
 
 ---
@@ -1859,7 +1874,7 @@ dicionario = {
 Exemplo simples:
 
 ```python
-usuario = {"nome": "ana", "email": "emaildaana@gmail.com"}
+usuario = {"nome": "ana", "email": "ana@example.com"}
 ```
 
 Aqui temos:
@@ -1867,7 +1882,7 @@ Aqui temos:
 |chave|valor|
 |---|---|
 |nome|ana|
-|email|[emaildaana@gmail.com](mailto:emaildaana@gmail.com)|
+|email|[ana@example.com](mailto:ana@example.com)|
 
 ---
 
@@ -1910,7 +1925,7 @@ Saída:
 
 ```
 ana
-emaildaana@gmail.com
+ana@example.com
 ```
 
 ---
