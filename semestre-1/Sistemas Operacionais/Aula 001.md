@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 1
+data: 2026-02-10
+status: em-revisao
+revisao: false
+aliases:
+  - SO 001 — Gerenciamento de recursos
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
+---
+
 10/ 02/ 2026
 
 
@@ -67,7 +82,7 @@ Os sistemas operacionais tem a função de gerenciar recursos e organizar os pro
 ### Multiprogramáveis / Multitarefa
 - Recursos compartilhados entre as diversas aplicações; enquanto um programa espera por um evento, outros programas podem estar processando neste mesmo intervalo de tempo.
 - O sistema operacional se incumbe de gerenciar o acesso concorrente aos seus diversos recursos.
-![[Pasted image 20260210214145.png]]
+![[Pasted image 20260210214142.png]]
 ### Processos 
 - Conceito Fundamental e mais importante para os SO
 - ==Uma abstração de um programa em execução==

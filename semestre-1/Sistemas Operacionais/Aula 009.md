@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 9
+data: 2026-05-05
+status: em-revisao
+revisao: false
+aliases:
+  - SO 009 — Shell Script e backup
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
+---
+
+# Aula 009 — Shell Script, backup e servidor de arquivos
+
 
 Data: 05/05/2026
 
@@ -28,7 +45,8 @@ Nano (nomedoarquivo)
 ```
 chmod a+x nome do script
 ```
-![[Pasted image 20260505192816.png|697]]
+> [!warning] Imagem pendente
+> A captura citada na anotação original não estava presente no repositório.
 
 #### Para rodar o script, basta acessar seu diretório e inserir:
 ```
@@ -78,11 +96,9 @@ fi
 
 ### 🔹 Variáveis
 
-bash
-
-```
+```bash
 #!/bin/bash
-NOME="Mestre do Universo"
+NOME="Aluno"
 DATA=$(date +%Y-%m-%d)
 echo "Olá, $NOME! Hoje é $DATA"
 
@@ -90,9 +106,7 @@ echo "Olá, $NOME! Hoje é $DATA"
 
 ### 🔹 Estrutura `if` (condicional)
 
-bash
-
-```
+```bash
 #!/bin/bash
 ARQUIVO="/etc/passwd"
 
@@ -118,9 +132,7 @@ Operadores comuns:
 
 ### 🔹 Estrutura `for` (laço)
 
-bash
-
-```
+```bash
 #!/bin/bash
 for usuario in joao maria pedro; do
     echo "Criando usuário: $usuario"
@@ -130,11 +142,9 @@ done
 
 ### 🔹 Estrutura `while`
 
-bash
-
-```
+```bash
 #!/bin/bash
-contador=1c
+contador=1
 while [ $contador -le 5 ]; do
     echo "Backup tentativa $contador"
     contador=$((contador + 1))
@@ -143,9 +153,7 @@ done
 
 ### 🔹 Estrutura `case`
 
-bash
-
-```
+```bash
 #!/bin/bash
 read -p "Escolha [1-Backup | 2-Restore]: " opcao
 case $opcao in
@@ -159,15 +167,13 @@ esac
 
 ## 3. Script de Backup Completo (Exemplo Prático)
 
-Aqui vai um script real que faz backup de um diretório, compacta com data, e remove backups antigos:
+O exemplo abaixo faz backup de um diretório, compacta o arquivo com a data e remove backups antigos:
 
-bash
-
-```
+```bash
 #!/bin/bash
 # ===========================================
 # Script de Backup Automático
-# Autor: Mestre do Universo
+# Autores: Vitor Reis e Miguel Zimmermann
 # ===========================================
 
 ORIGEM="/home/douglas/documentos"

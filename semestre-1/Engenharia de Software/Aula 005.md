@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Engenharia de Software
+aula: 5
+data: 2026-03-30
+status: em-revisao
+revisao: false
+aliases:
+  - ES 005 — Desenvolvimento ágil e XP
+tags:
+  - ads/semestre-1
+  - disciplina/engenharia-software
+---
+
 30/03/2026
 # 📖 Dossiê Completo – Aula 6: Desenvolvimento Ágil de Software
 
@@ -291,7 +306,7 @@ A história é decomposta em tarefas menores pelo time:
 
 ## 📌 11. Síntese Final — O Que Levar desta Aula
 
-Zimmermann, aqui está o mapa mental do que é mais importante:
+Mapa mental dos pontos mais importantes:
 
 > 1. Os **métodos ágeis** nasceram da insatisfação com processos pesados aplicados a sistemas onde os requisitos mudam rapidamente
 > 2. O **Manifesto Ágil** resume a filosofia: pessoas acima de processos, software funcionando acima de documentação, cliente acima de contrato, mudança acima de plano rígido

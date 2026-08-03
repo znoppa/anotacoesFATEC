@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Engenharia de Software
+aula: 4
+data: 2026-03-16
+status: em-revisao
+revisao: false
+aliases:
+  - ES 004 — Reuso de software
+tags:
+  - ads/semestre-1
+  - disciplina/engenharia-software
+---
+
+# Aula 004 — Integração, configuração e reuso
+
 16/03/2026
 
 ---

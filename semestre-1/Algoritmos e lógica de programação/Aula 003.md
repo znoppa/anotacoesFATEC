@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Algoritmos e Lógica de Programação
+aula: 3
+data: 2026-03-04
+status: em-revisao
+revisao: false
+aliases:
+  - ALP 003 — Lógica, algoritmos e dados
+tags:
+  - ads/semestre-1
+  - disciplina/algoritmos
+---
+
+# Aula 003 — Lógica, algoritmos e fluxogramas
+
 Aula 04/03/2026
 
 Sites de Interesse:

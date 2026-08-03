@@ -1,9 +1,24 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Projeto Integrador
+aula: 4
+data: 2026-03-06
+status: em-revisao
+revisao: false
+aliases:
+  - PI 004 — Do problema à implantação
+tags:
+  - ads/semestre-1
+  - disciplina/projeto-integrador
+---
+
 Data: 06/03/2026
 
 Materiais usado em aula:
 
-[[ROTEIRO.pdf]] - Roteiro que iremos seguir
-[[briefing.pdf]] - Modelo de Briefing a ser feito
+[[semestre-1/Projeto Integrador/Materiais/ROTEIRO.pdf|ROTEIRO.pdf]] — Roteiro que iremos seguir
+[[semestre-1/Projeto Integrador/Materiais/briefing.pdf|briefing.pdf]] — Modelo de briefing a ser feito
 
 ---
 

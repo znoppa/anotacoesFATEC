@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
-                "mode": "source",
+                "file": "01 - Painel/00 - Início.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Central de conhecimento ADS"
             }
           },
           {
@@ -36,7 +36,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 0
       }
     ],
     "direction": "vertical"
@@ -198,8 +198,12 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "2b9c9bbe47828fa7",
+  "active": "cbc8fcccf3e6d69d",
   "lastOpenFiles": [
+    "01 - Painel/00 - Início.md",
+    "01 - Painel/Primeiro Semestre.md",
+    "01 - Painel/Notas do Primeiro Semestre.base",
+    "01 - Painel/Mapa do Primeiro Semestre.canvas",
     "Pasted image 20260413211336.png",
     "semestre-1/Sistemas Operacionais/Materiais/PDFPROCESSOS.pdf",
     "semestre-1/Sistemas Operacionais/Materiais/PDFPROCESSS.pdf",

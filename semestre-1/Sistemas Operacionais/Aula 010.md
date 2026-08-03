@@ -1,5 +1,16 @@
-Claro, Mestre do Universo! 👑 Aqui vão as anotações completas da aula de hoje, organizadinhas pra você revisar e guardar. 📚
-
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 10
+data: 2026-05-12
+status: em-revisao
+revisao: false
+aliases:
+  - SO 010 — Condições, arquivos e logs
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
 ---
 
 # 📘 Anotações de Aula — Shell Script (Bash)
@@ -223,4 +234,3 @@ comando | tee -a arq # tela + arquivo
 chmod +x script.sh
 ./script.sh
 ```
-

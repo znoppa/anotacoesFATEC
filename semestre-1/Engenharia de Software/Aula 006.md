@@ -1,10 +1,26 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Engenharia de Software
+aula: 6
+data: 2026-04-13
+status: em-revisao
+revisao: false
+aliases:
+  - ES 006 — Processos, XP, Scrum e Kanban
+tags:
+  - ads/semestre-1
+  - disciplina/engenharia-software
+---
+
+# Aula 006 — Processos e métodos ágeis
+
 Data: 13/04
 
 Primeira aula com a **Ana Célia** 
-Email: ana.portes@cps.sp.gov.br
 
 Materiais:
-**Livro: **https://engsoftmoderna.info/
+**Livro:** https://engsoftmoderna.info/
 2 - Processos : https://engsoftmoderna.info/cap2.html
 2.1 e 2.2 - Leitura
 

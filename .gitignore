@@ -1,0 +1,28 @@
+# IDEs e configurações locais
+.idea/
+.vscode/
+*.iml
+
+# Artefatos de compilação
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+build.ninja
+cmake_install.cmake
+*.obj
+*.o
+*.exe
+*.bin
+
+# Downloads e temporários
+*.crdownload
+*.tmp
+~$*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Estado local e volátil do Obsidian
+.obsidian/cache/
+.obsidian/workspace-mobile.json

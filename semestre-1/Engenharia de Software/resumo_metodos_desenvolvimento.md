@@ -1,3 +1,17 @@
+---
+tipo: resumo
+semestre: 1
+disciplina: Engenharia de Software
+status: em-revisao
+revisao: false
+aliases:
+  - ES — Modelos de desenvolvimento
+tags:
+  - ads/semestre-1
+  - disciplina/engenharia-software
+  - conteúdo/revisão
+---
+
 # 📚 Modelos de Desenvolvimento de Software
 ## 🔹 1. Modelo Cascata (Waterfall)
 

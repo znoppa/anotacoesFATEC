@@ -1,3 +1,18 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 2
+data: 2026-02-24
+status: em-revisao
+revisao: false
+aliases:
+  - SO 002 — Processos e threads
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
+---
+
 	24/02/2026
 
 # Processos

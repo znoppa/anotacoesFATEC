@@ -1,3 +1,18 @@
+---
+tipo: resumo
+semestre: 1
+disciplina: Arquitetura e Organização
+status: em-revisao
+revisao: false
+aliases:
+  - AOC — Resumo para prova
+  - Arquitetura — Resumo do semestre
+tags:
+  - ads/semestre-1
+  - disciplina/arquitetura
+  - conteúdo/revisão
+---
+
 # Arquitetura e Organização de Computadores — Conteúdo Completo
 
 ---

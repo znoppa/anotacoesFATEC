@@ -1,5 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Engenharia de Software
+aula: 1
+data: 2026-02-23
+status: em-revisao
+revisao: false
+aliases:
+  - ES 001 — Fundamentos
+tags:
+  - ads/semestre-1
+  - disciplina/engenharia-software
+---
+
 23 / 02 / 2026
-gihub: https://github.com/profmauricioaneves/fatecEngenhariaSoftware1
+GitHub: https://github.com/profmauricioaneves/fatecEngenhariaSoftware1
 
 # 00 - Engenharia de Software 1 - Aula Introdutória
 ## 📌 Objetivo da Disciplina

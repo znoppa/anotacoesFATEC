@@ -1,6 +1,23 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Sistemas Operacionais
+aula: 4
+data: 2026-03-10
+status: em-revisao
+revisao: false
+aliases:
+  - SO 004 — Algoritmos de escalonamento
+tags:
+  - ads/semestre-1
+  - disciplina/sistemas-operacionais
+---
+
+# Aula 004 — Algoritmos de escalonamento
+
 
 Data: 10/03/2026
-Continuação da [[Primeiro Semestre/Sistemas Operacionais/Aula 003|Aula 003]]
+Continuação da [[semestre-1/Sistemas Operacionais/Aula 003|Aula 003]].
 -----
 ### 8.3 SJF Preemptivo (SRTN – Shortest Remaining Time Next)
 
@@ -28,7 +45,7 @@ Continuação da [[Primeiro Semestre/Sistemas Operacionais/Aula 003|Aula 003]]
 | D | 4 | 5 |
 
 ==Exemplo na página 28 do PDF:== 
-[[Primeiro Semestre/Sistemas Operacionais/Materiais/PDFESCALONAMENTO.pdf#page=28&selection=0,0,4,3|PDFESCALONAMENTO, página 28]]
+[[semestre-1/Sistemas Operacionais/Materiais/PDFESCALONAMENTO.pdf#page=28|PDF de escalonamento, página 28]]
 
 **Passo a passo:**
 

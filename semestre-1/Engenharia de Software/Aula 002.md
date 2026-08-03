@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Engenharia de Software
+aula: 2
+data: 2026-03-02
+status: em-revisao
+revisao: false
+aliases:
+  - ES 002 — Processos e cascata
+tags:
+  - ads/semestre-1
+  - disciplina/engenharia-software
+---
+
+# Aula 002 — Processos de software e modelo em cascata
+
 
 02/03/2026
 

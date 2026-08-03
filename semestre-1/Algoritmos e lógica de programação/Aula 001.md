@@ -1,3 +1,20 @@
+---
+tipo: aula
+semestre: 1
+disciplina: Algoritmos e Lógica de Programação
+aula: 1
+data: 2026-02-11
+status: em-revisao
+revisao: false
+aliases:
+  - ALP 001 — Ferramentas e lógica
+tags:
+  - ads/semestre-1
+  - disciplina/algoritmos
+---
+
+# Aula 001 — Ferramentas e processo de lógica
+
 11 / 02 / 2026
 Site com os materiais a serem trabalhados em aula:
 maromoalgoritmos.netlify.app
