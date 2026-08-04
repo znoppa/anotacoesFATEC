@@ -1,0 +1,56 @@
+filters:
+  and:
+    - file.inFolder("semestre-2")
+    - 'file.ext == "md"'
+    - 'tipo == "aula" || tipo == "resumo"'
+formulas:
+  progresso: 'if(revisao, "✅ Revisada", if(status == "rascunho", "📝 Rascunho", "🔎 Revisar"))'
+properties:
+  file.name:
+    displayName: Nota
+  disciplina:
+    displayName: Disciplina
+  aula:
+    displayName: Aula
+  data:
+    displayName: Data
+  status:
+    displayName: Status
+  revisao:
+    displayName: Revisada
+  formula.progresso:
+    displayName: Progresso
+views:
+  - type: table
+    name: Por disciplina
+    groupBy:
+      property: disciplina
+      direction: ASC
+    order:
+      - file.name
+      - disciplina
+      - aula
+      - data
+      - formula.progresso
+  - type: table
+    name: Pendências
+    filters:
+      or:
+        - 'status == "rascunho"'
+        - 'revisao == false'
+    order:
+      - file.name
+      - disciplina
+      - aula
+      - status
+      - formula.progresso
+  - type: table
+    name: Revisadas
+    filters:
+      and:
+        - 'revisao == true'
+    order:
+      - file.name
+      - disciplina
+      - aula
+      - data

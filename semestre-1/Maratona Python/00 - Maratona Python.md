@@ -21,9 +21,9 @@ tags:
 
 | Aula | Estado | Tema | Nota |
 |---:|---|---|---|
-| 02 | Em revisão | Variáveis, strings, listas, tuplas, conjuntos e dicionários | [[semestre-1/Maratona Python/Aula 02|Abrir]] |
-| 04 | Rascunho | Conteúdo ainda não registrado | [[semestre-1/Maratona Python/Aula 04|Abrir]] |
-| 05 | Em revisão | Filas com `collections.deque` | [[semestre-1/Maratona Python/Aula 05|Abrir]] |
+| 02 | Em revisão | Variáveis, strings, listas, tuplas, conjuntos e dicionários | [[semestre-1/Maratona Python/Aula 02\|Abrir]] |
+| 04 | Rascunho | Conteúdo ainda não registrado | [[semestre-1/Maratona Python/Aula 04\|Abrir]] |
+| 05 | Em revisão | Filas com `collections.deque` | [[semestre-1/Maratona Python/Aula 05\|Abrir]] |
 
 ## Conexões
 

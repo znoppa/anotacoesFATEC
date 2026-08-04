@@ -12,23 +12,35 @@ tags:
 # Central de conhecimento ADS
 
 > [!abstract] Acesso rápido
-> [[01 - Painel/Primeiro Semestre|Primeiro semestre]] · [[01 - Painel/Notas do Primeiro Semestre.base|Todas as notas]] · [[01 - Painel/Mapa do Primeiro Semestre.canvas|Mapa visual]] · [[01 - Painel/Glossário ADS|Glossário]] · [[00 - Caixa de Entrada/Capturas rápidas|Capturas rápidas]]
+> [[01 - Painel/Primeiro Semestre|Primeiro semestre]] · [[01 - Painel/Segundo Semestre|Segundo semestre]] · [[01 - Painel/Glossário ADS|Glossário]] · [[00 - Caixa de Entrada/Capturas rápidas|Capturas rápidas]]
 
 ## Disciplinas do primeiro semestre
 
 | Disciplina | Foco | Abrir |
 |---|---|---|
-| Algoritmos e Lógica de Programação | Lógica, C, estruturas de controle e exercícios | [[semestre-1/Algoritmos e lógica de programação/00 - Algoritmos e Lógica de Programação|Mapa]] |
-| Arquitetura e Organização | Bases numéricas, CPU, memória e Assembly | [[semestre-1/Arquitetura e Organização/00 - Arquitetura e Organização|Mapa]] |
-| Comunicação e Expressão | Comunicação, linguagem e escrita profissional | [[semestre-1/Comunicação e Expressão/00 - Comunicação e Expressão|Mapa]] |
-| Engenharia de Software | Processos, métodos ágeis, requisitos e UML | [[semestre-1/Engenharia de Software/00 - Engenharia de Software|Mapa]] |
-| Projeto Integrador | Problema, escopo, requisitos e entrega do PI | [[semestre-1/Projeto Integrador/00 - Projeto Integrador|Mapa]] |
-| Sistemas Operacionais | Processos, memória, Linux e Shell Script | [[semestre-1/Sistemas Operacionais/00 - Sistemas Operacionais|Mapa]] |
-| Maratona Python | Sintaxe, coleções e estruturas de dados | [[semestre-1/Maratona Python/00 - Maratona Python|Mapa]] |
+| Algoritmos e Lógica de Programação | Lógica, C, estruturas de controle e exercícios | [[semestre-1/Algoritmos e lógica de programação/00 - Algoritmos e Lógica de Programação\|Mapa]] |
+| Arquitetura e Organização | Bases numéricas, CPU, memória e Assembly | [[semestre-1/Arquitetura e Organização/00 - Arquitetura e Organização\|Mapa]] |
+| Comunicação e Expressão | Comunicação, linguagem e escrita profissional | [[semestre-1/Comunicação e Expressão/00 - Comunicação e Expressão\|Mapa]] |
+| Engenharia de Software | Processos, métodos ágeis, requisitos e UML | [[semestre-1/Engenharia de Software/00 - Engenharia de Software\|Mapa]] |
+| Projeto Integrador | Problema, escopo, requisitos e entrega do PI | [[semestre-1/Projeto Integrador/00 - Projeto Integrador\|Mapa]] |
+| Sistemas Operacionais | Processos, memória, Linux e Shell Script | [[semestre-1/Sistemas Operacionais/00 - Sistemas Operacionais\|Mapa]] |
+| Maratona Python | Sintaxe, coleções e estruturas de dados | [[semestre-1/Maratona Python/00 - Maratona Python\|Mapa]] |
+
+## Segundo semestre
+
+> [!success] Novo ciclo
+> **[[semestre-2/LP - Linguagem de Programação I/00 - Linguagem de Programação I|LP - Linguagem de Programação I]]** — fundamentos da linguagem C, estrutura de programas, tipos de dados, variáveis e entrada/saída.
+> [[semestre-2/LP - Linguagem de Programação I/Aula 001 - Introdução à Linguagem C|Abrir a Aula 001]] · [[01 - Painel/Segundo Semestre|Ver o mapa do semestre]]
 
 ## Visões inteligentes
 
+### Primeiro semestre
+
 ![[01 - Painel/Notas do Primeiro Semestre.base#Pendências]]
+
+### Segundo semestre
+
+![[01 - Painel/Notas do Segundo Semestre.base#Pendências]]
 
 ## Continue estudando
 

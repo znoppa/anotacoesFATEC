@@ -1,6 +1,6 @@
 ---
 tipo: aula
-semestre: 1
+semestre: 0
 disciplina: NOME DA DISCIPLINA
 aula: 0
 data: "{{date}}"
@@ -9,7 +9,7 @@ revisao: false
 aliases:
   - SIGLA 000 — TEMA
 tags:
-  - ads/semestre-1
+  - ads/semestre-X
   - disciplina/slug
 ---
 
@@ -36,7 +36,7 @@ Insira um exemplo verificável.
 
 ## Conexões
 
-- [[Nota relacionada]] — explique a relação.
+- `[[Nota relacionada]]` — substitua pelo link real e explique a relação.
 
 ## Revisão ativa
 
@@ -50,4 +50,4 @@ Insira um exemplo verificável.
 
 ---
 
-[[01 - Painel/00 - Início|Início]] · [[01 - Painel/Primeiro Semestre|Primeiro semestre]] · [[MAPA DA DISCIPLINA|Mapa da disciplina]]
+[[01 - Painel/00 - Início|Início]] · Adicione aqui os links do semestre e do mapa da disciplina.

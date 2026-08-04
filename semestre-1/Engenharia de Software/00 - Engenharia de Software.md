@@ -21,14 +21,14 @@ tags:
 
 | Aula | Data | Tema | Nota |
 |---:|---|---|---|
-| 001 | 23/02 | Fundamentos e crise do software | [[semestre-1/Engenharia de Software/Aula 001|Abrir]] |
-| 002 | 02/03 | Processos e modelo em cascata | [[semestre-1/Engenharia de Software/Aula 002|Abrir]] |
-| 003 | 09/03 | Desenvolvimento incremental | [[semestre-1/Engenharia de Software/Aula 003|Abrir]] |
-| 004 | 16/03 | Reuso, integração e configuração | [[semestre-1/Engenharia de Software/Aula 004|Abrir]] |
-| 005 | 30/03 | Métodos ágeis e Extreme Programming | [[semestre-1/Engenharia de Software/Aula 005|Abrir]] |
-| 006 | 13/04 | Processos, XP, Scrum e Kanban | [[semestre-1/Engenharia de Software/Aula 006|Abrir]] |
-| 008 | 27/04 | Scrum em profundidade | [[semestre-1/Engenharia de Software/Aula 008|Abrir]] |
-| 009 | 11/05 | Modelagem, UML e casos de uso | [[semestre-1/Engenharia de Software/Aula 009|Abrir]] |
+| 001 | 23/02 | Fundamentos e crise do software | [[semestre-1/Engenharia de Software/Aula 001\|Abrir]] |
+| 002 | 02/03 | Processos e modelo em cascata | [[semestre-1/Engenharia de Software/Aula 002\|Abrir]] |
+| 003 | 09/03 | Desenvolvimento incremental | [[semestre-1/Engenharia de Software/Aula 003\|Abrir]] |
+| 004 | 16/03 | Reuso, integração e configuração | [[semestre-1/Engenharia de Software/Aula 004\|Abrir]] |
+| 005 | 30/03 | Métodos ágeis e Extreme Programming | [[semestre-1/Engenharia de Software/Aula 005\|Abrir]] |
+| 006 | 13/04 | Processos, XP, Scrum e Kanban | [[semestre-1/Engenharia de Software/Aula 006\|Abrir]] |
+| 008 | 27/04 | Scrum em profundidade | [[semestre-1/Engenharia de Software/Aula 008\|Abrir]] |
+| 009 | 11/05 | Modelagem, UML e casos de uso | [[semestre-1/Engenharia de Software/Aula 009\|Abrir]] |
 
 ## Consulta rápida
 

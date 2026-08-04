@@ -21,16 +21,16 @@ tags:
 
 | Aula | Data | Tema | Nota |
 |---:|---|---|---|
-| 001 | 10/02 | SO como gerenciador de recursos | [[semestre-1/Sistemas Operacionais/Aula 001|Abrir]] |
-| 002 | 24/02 | Processos, estados, PCB e threads | [[semestre-1/Sistemas Operacionais/Aula 002|Abrir]] |
-| 003 | 03/03 | POSIX, fork, wait e escalonamento | [[semestre-1/Sistemas Operacionais/Aula 003|Abrir]] |
-| 004 | 10/03 | Algoritmos de escalonamento | [[semestre-1/Sistemas Operacionais/Aula 004|Abrir]] |
-| 005 | 24/03 | Gerenciamento e memória virtual | [[semestre-1/Sistemas Operacionais/Aula 005|Abrir]] |
-| 006 | 31/03 | Substituição de páginas | [[semestre-1/Sistemas Operacionais/Aula 006|Abrir]] |
-| 007 | 14/04 | Linux e permissões | [[semestre-1/Sistemas Operacionais/Aula 007|Abrir]] |
-| 008 | 14/04 | `chmod`, `chown` e grupos | [[semestre-1/Sistemas Operacionais/Aula 008|Abrir]] |
-| 009 | 05/05 | Shell Script e backup | [[semestre-1/Sistemas Operacionais/Aula 009|Abrir]] |
-| 010 | 12/05 | Condições, arquivos e logs em Bash | [[semestre-1/Sistemas Operacionais/Aula 010|Abrir]] |
+| 001 | 10/02 | SO como gerenciador de recursos | [[semestre-1/Sistemas Operacionais/Aula 001\|Abrir]] |
+| 002 | 24/02 | Processos, estados, PCB e threads | [[semestre-1/Sistemas Operacionais/Aula 002\|Abrir]] |
+| 003 | 03/03 | POSIX, fork, wait e escalonamento | [[semestre-1/Sistemas Operacionais/Aula 003\|Abrir]] |
+| 004 | 10/03 | Algoritmos de escalonamento | [[semestre-1/Sistemas Operacionais/Aula 004\|Abrir]] |
+| 005 | 24/03 | Gerenciamento e memória virtual | [[semestre-1/Sistemas Operacionais/Aula 005\|Abrir]] |
+| 006 | 31/03 | Substituição de páginas | [[semestre-1/Sistemas Operacionais/Aula 006\|Abrir]] |
+| 007 | 14/04 | Linux e permissões | [[semestre-1/Sistemas Operacionais/Aula 007\|Abrir]] |
+| 008 | 14/04 | `chmod`, `chown` e grupos | [[semestre-1/Sistemas Operacionais/Aula 008\|Abrir]] |
+| 009 | 05/05 | Shell Script e backup | [[semestre-1/Sistemas Operacionais/Aula 009\|Abrir]] |
+| 010 | 12/05 | Condições, arquivos e logs em Bash | [[semestre-1/Sistemas Operacionais/Aula 010\|Abrir]] |
 
 ## Trilhas de revisão
 

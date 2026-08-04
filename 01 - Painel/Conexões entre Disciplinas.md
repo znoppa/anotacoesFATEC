@@ -16,7 +16,7 @@ Esta página reúne os atalhos que evitam estudar os assuntos como ilhas separad
 
 ## Do problema ao software
 
-1. A [[semestre-1/Comunicação e Expressão/Semestre-1#1. Comunicação noções gerais|comunicação eficaz]] ajuda a conduzir entrevistas e reduzir ruídos.
+1. A [[semestre-1/Comunicação e Expressão/Semestre-1#1. Comunicação: noções gerais|comunicação eficaz]] ajuda a conduzir entrevistas e reduzir ruídos.
 2. O [[semestre-1/Projeto Integrador/Aula 004#3️⃣ Levantamento de Requisitos|levantamento de requisitos]] descreve o problema.
 3. A [[semestre-1/Engenharia de Software/Aula 009#5. Modelo de Casos de Uso|modelagem de casos de uso]] representa as interações.
 4. Os [[semestre-1/Algoritmos e lógica de programação/Aula 003#⚙️ 2. O que são Algoritmos?|algoritmos]] transformam regras em passos executáveis.
@@ -39,3 +39,9 @@ Esta página reúne os atalhos que evitam estudar os assuntos como ilhas separad
 - Defina [[semestre-1/Projeto Integrador/Aula007#Requisitos Funcionais (RF)|requisitos funcionais e não funcionais]].
 - Organize o trabalho com [[semestre-1/Engenharia de Software/Aula 008#5. SCRUM|Scrum]].
 - Registre a entrega conforme o [[semestre-1/Projeto Integrador/Aula 006#Documento do PI (Relatório - SIGA)|relatório do PI]].
+
+## Continuidade no segundo semestre
+
+- [[semestre-2/LP - Linguagem de Programação I/Aula 001 - Introdução à Linguagem C#Da lógica ao programa em C|Linguagem de Programação I]] retoma a lógica e os algoritmos do primeiro semestre para produzir programas em C.
+- [[semestre-1/Algoritmos e lógica de programação/Aula 003#📚 Resumo – Tipos de Dados - 005 (Algoritmos e Lógica de Programação)|Tipos e variáveis]] ganham uma visão mais detalhada em [[semestre-2/LP - Linguagem de Programação I/Aula 001 - Introdução à Linguagem C#Tipos de dados básicos|tipos de dados em C]].
+- O processo de compilação estudado em [[semestre-1/Algoritmos e lógica de programação/Aula 002#Compiladores|Algoritmos]] se conecta ao [[semestre-2/LP - Linguagem de Programação I/Aula 001 - Introdução à Linguagem C#Ciclo de desenvolvimento|ciclo de edição, compilação, linkagem e execução]].

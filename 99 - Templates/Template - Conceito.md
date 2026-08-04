@@ -22,4 +22,4 @@ tags:
 
 ## Conexões
 
-- [[Nota relacionada]]
+- `[[Nota relacionada]]` — substitua por uma nota existente.

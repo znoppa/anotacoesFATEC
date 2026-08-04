@@ -26,7 +26,7 @@ Resposta.
 
 ## Mapa de relações
 
-- [[Conceito A]] → relação → [[Conceito B]]
+- `[[Conceito A]]` → relação → `[[Conceito B]]` — substitua pelos links reais.
 
 ## Pontos que ainda geram dúvida
 

@@ -21,13 +21,13 @@ tags:
 
 | Aula | Data | Tema | Nota |
 |---:|---|---|---|
-| 001 | 11/02 | Ferramentas e processo de lógica | [[semestre-1/Algoritmos e lógica de programação/Aula 001|Abrir]] |
-| 002 | 25/02 | Introdução à programação, compiladores e VMs | [[semestre-1/Algoritmos e lógica de programação/Aula 002|Abrir]] |
-| 003 | 04/03 | Lógica, algoritmos e fluxogramas | [[semestre-1/Algoritmos e lógica de programação/Aula 003|Abrir]] |
-| 005 | — | Tipos, variáveis e entrada/saída | [[semestre-1/Algoritmos e lógica de programação/Aula 005|Abrir]] |
-| 005 | — | Índice dos exercícios em C | [[semestre-1/Algoritmos e lógica de programação/Aula 005 - Exercícios|Exercícios]] |
-| 006 | 25/03 | Decisão, `if`, `switch` e `for` | [[semestre-1/Algoritmos e lógica de programação/Aula 006|Abrir]] |
-| 007 | 01/04 | `while`, `do-while`, `break` e `continue` | [[semestre-1/Algoritmos e lógica de programação/Aula 007|Abrir]] |
+| 001 | 11/02 | Ferramentas e processo de lógica | [[semestre-1/Algoritmos e lógica de programação/Aula 001\|Abrir]] |
+| 002 | 25/02 | Introdução à programação, compiladores e VMs | [[semestre-1/Algoritmos e lógica de programação/Aula 002\|Abrir]] |
+| 003 | 04/03 | Lógica, algoritmos e fluxogramas | [[semestre-1/Algoritmos e lógica de programação/Aula 003\|Abrir]] |
+| 005 | — | Tipos, variáveis e entrada/saída | [[semestre-1/Algoritmos e lógica de programação/Aula 005\|Abrir]] |
+| 005 | — | Índice dos exercícios em C | [[semestre-1/Algoritmos e lógica de programação/Aula 005 - Exercícios\|Exercícios]] |
+| 006 | 25/03 | Decisão, `if`, `switch` e `for` | [[semestre-1/Algoritmos e lógica de programação/Aula 006\|Abrir]] |
+| 007 | 01/04 | `while`, `do-while`, `break` e `continue` | [[semestre-1/Algoritmos e lógica de programação/Aula 007\|Abrir]] |
 
 ## Percurso recomendado
 

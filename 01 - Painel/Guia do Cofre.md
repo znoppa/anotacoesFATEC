@@ -15,7 +15,7 @@ tags:
 - `Ctrl/Cmd + O`: abra qualquer nota pelo título, caminho ou alias.
 - `Ctrl/Cmd + Shift + F`: pesquise texto em todo o cofre.
 - `Ctrl/Cmd + P`: abra a paleta de comandos.
-- Abra [[01 - Painel/Notas do Primeiro Semestre.base|Notas do Primeiro Semestre]] para filtrar propriedades.
+- Abra [[01 - Painel/Notas do Primeiro Semestre.base|Notas do Primeiro Semestre]] ou [[01 - Painel/Notas do Segundo Semestre.base|Notas do Segundo Semestre]] para filtrar propriedades.
 - Use backlinks e links de saída na lateral para seguir relações.
 
 ## Criar uma aula
@@ -41,7 +41,7 @@ A propriedade `revisao` é uma caixa de seleção separada. Marque-a apenas apó
 - Um título principal (`#`) por nota.
 - Seções curtas, tabelas apenas para comparação e blocos de código com linguagem declarada.
 - Links descritivos: `[[caminho/nota|texto que será exibido]]`.
-- Materiais brutos ficam em `Materiais`; imagens compartilhadas ficam em `semestre-1/Imagens`.
+- Materiais brutos ficam na pasta `Materiais` de cada disciplina; imagens compartilhadas ficam na pasta `Imagens` do respectivo semestre.
 - Código-fonte é versionado; executáveis e builds locais não são.
 
 ## Revisão antes de enviar ao GitHub

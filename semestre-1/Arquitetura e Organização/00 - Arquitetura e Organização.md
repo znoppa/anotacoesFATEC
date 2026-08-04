@@ -21,8 +21,8 @@ tags:
 
 | Tipo | Conteúdo | Nota |
 |---|---|---|
-| Resumo do semestre | Bases numéricas, complemento de 2, álgebra booleana, CPU, RISC e CISC | [[semestre-1/Arquitetura e Organização/semestre-1_resumoprova|Resumo para prova]] |
-| Aula 008 | Memória do processador, registradores e programa em Assembly | [[semestre-1/Arquitetura e Organização/Aula 008|Abrir]] |
+| Resumo do semestre | Bases numéricas, complemento de 2, álgebra booleana, CPU, RISC e CISC | [[semestre-1/Arquitetura e Organização/semestre-1_resumoprova\|Resumo para prova]] |
+| Aula 008 | Memória do processador, registradores e programa em Assembly | [[semestre-1/Arquitetura e Organização/Aula 008\|Abrir]] |
 
 ## Pontes importantes
 

@@ -1837,7 +1837,7 @@ Sets permitem operações matemáticas como:
 
 |operação|símbolo|exemplo|
 |---|---|---|
-|União|`|`|
+|União|`\|`|A `\|` B|
 |Interseção|`&`|A & B|
 |Diferença|`-`|A - B|
 

@@ -8,6 +8,7 @@ O objetivo é encontrar uma aula, conceito, exercício ou material em poucos seg
 
 - [Abrir o painel inicial](01%20-%20Painel/00%20-%20Início.md)
 - [Explorar o primeiro semestre](01%20-%20Painel/Primeiro%20Semestre.md)
+- [Explorar o segundo semestre](01%20-%20Painel/Segundo%20Semestre.md)
 - [Consultar conexões entre disciplinas](01%20-%20Painel/Conexões%20entre%20Disciplinas.md)
 - [Aprender o fluxo da vault](01%20-%20Painel/Guia%20do%20Cofre.md)
 
@@ -41,8 +42,16 @@ Cada disciplina possui uma nota `00 - ...` que funciona como **mapa de conteúdo
 1. Uma aula nova nasce do `Template - Aula`.
 2. Use links internos com `[[...]]` sempre que um conceito já existir.
 3. Marque `status: rascunho` quando faltar conteúdo e `revisao: true` somente após conferir a nota.
-4. Imagens ficam em `semestre-1/Imagens`; materiais da disciplina ficam em `Materiais`.
+4. Imagens ficam na pasta `Imagens` do semestre; materiais de apoio ficam em `Materiais` dentro da disciplina.
 5. Não versione executáveis, diretórios de build, configurações locais da IDE ou arquivos temporários.
+
+## Segundo semestre
+
+O novo ciclo começa por **LP - Linguagem de Programação I**:
+
+- [Mapa da disciplina](semestre-2/LP%20-%20Linguagem%20de%20Programação%20I/00%20-%20Linguagem%20de%20Programação%20I.md)
+- [Aula 001 - Introdução à Linguagem C](semestre-2/LP%20-%20Linguagem%20de%20Programação%20I/Aula%20001%20-%20Introdução%20à%20Linguagem%20C.md)
+- Conteúdo dos materiais `LP_001` e `LP_002` consolidado na Aula 001 para consulta rápida.
 
 ## Colaboração
 
