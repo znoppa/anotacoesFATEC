@@ -1,9 +1,9 @@
 - Dinâmica das aulas
 - Avaliações
-	- HTML/CSS (03/09)
-	- JavaScript (08/10)
-	- PHP / React Nativa (26/11)
-- Trabalho / Projeto ext. (26/11) -> Projeto Integrador
+	- HTML/CSS (04/09)
+	- JavaScript (09/10)
+	- PHP / React Nativa (27/11)
+- Trabalho / Projeto ext. (27/11) -> Projeto Integrador
 - Ferramentas
 	- Visual Studio Code / Similar
 	- Xampp + MySQL / MariaDB
