@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Formulário do Aluno</h1>
+    <fieldset><!--grupo de elementos-->
+        <legend>Dados Pessoais</legend> <!--Rótulo de Grupo-->
+        <label>Nome:</label>
+        <input type="text" size="50" maxlength="50" placeholder="Digite seu nome" name="nome">
+        <label>Senha Provisória:</label>
+        <input type="password" size="5" maxlength="5" ><br>
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" value="masculino" checked>Masculino
+        <input type="radio" name="sexo" value="feminino">Feminino<br>
+        <label>Aluno veterano:</label>
+        <input type="checkbox" value="sim">
+        <p>
+            <label>Escolha o seu curso:</label>
+            <select name="curso">
+                <optgroup label="Exatas">
+                    <option>Análise e Desenvolvimento de Sistemas</option>
+                    <option>Engenharia Mecânica</option>
+                </optgroup>
+                <optgroup label="Humanas">
+                    <option>Gestão Empresarial</option>
+                    <option>Gestão de Marketing</option>
+                </optgroup>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <input type="reset" value="Limpar">
+        <input type="submit" value="Enviar">
+    </fieldset>
+</body>
+</html>
