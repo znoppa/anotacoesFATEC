@@ -161,11 +161,14 @@ Outro exemplo apresentado no material associa a data ao relacionamento de consul
 
 ### Sem identificação
 
-A entidade pode continuar existindo mesmo sem o relacionamento em questão.
+A entidade pode continuar existindo mesmo sem o relacionamento em questão. No modelo lógico, a chave estrangeira referencia outra tabela, mas não participa da chave primária da tabela que a contém.
 
 ### Com identificação
 
-No material, o relacionamento de identificação é representado por losango duplo e está ligado a situações nas quais a existência e a identificação dependem da entidade relacionada.
+No material, o relacionamento de identificação é representado por losango duplo e está ligado a situações nas quais a existência e a identificação dependem da entidade relacionada. No modelo lógico, a chave estrangeira da entidade proprietária participa da composição da chave primária da tabela dependente.
+
+> [!example] Exemplo lógico
+> Em `HISTORICO_REPARO (chassi, seq_reparo, data, tipo, valor)`, `chassi` referencia `CARRO` e, junto com `seq_reparo`, forma a chave primária de `HISTORICO_REPARO`. O reparo é identificado no contexto do carro.
 
 ## Grau dos relacionamentos
 
