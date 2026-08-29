@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo Formulários</title>
+</head>
+<body>
+    <form method="post" action="#"><!--cria um formulário-->
+        <!--get envia pela barra de endereço-->
+        <!--post envia pela memoria ou destino-->
+        <!--action informa o destino-->
+        <h1>Exemplo de formulário</h1>
+        <label>Nome:</label><!--rótulo de formulário-->
+        <input type="text" size="50" maxlength="50" placeholder="digite seu nome" 
+        value="João" name="nome" id="1" disabled>
+        <!--Type=tipo,size=tamanho da caixa de texto, maxlength=tamanho em caracteres-->
+        <!--placeholder=dica de preenchimento, value=valor inicial-->
+        <!--name=nome, id=identificador, disabled=desabilita-->
+        <label>Senha:</label>
+        <input type="password" name="senha">
+        <br>
+        <label>Sexo/Genero:</label>
+        <input type="radio"name="sexo" value="Feminino">Feminino
+        <input type="radio"name="sexo" value="Masculino">Masculino
+        <input type="radio"name="sexo">LGBTQIA+BIN
+        <input type="radio"name="sexo">PAN
+        <input type="radio"name="sexo"checked>Ainda não sei
+        <br>
+        <label>Escolha o seu curso:</label>
+        <select name="curso">
+            <option>ADS</option>
+            <option>Gestão Empresarial</option>
+            <option>Engenharia Mecânica</option>
+            <option>Mecatrônica</option>
+            <option>Fabricação Mecânica</option>
+        </select>
+        <br>
+        <input type="checkbox"checked disabled>Sim, eu desejo receber Spams!
+        <br>
+        <label>Comentários:</label>
+        <textarea placeholder="digite suas reclamações" name="comentarios"> </textarea>
+        <hr>
+        <input type="reset" value="Limpar"><!--limpa o formulário para estado inicial-->
+        <input type="submit" value="Gravar"><!--Envia o formulário-->
+    </form>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário na Tabela</title>
+</head>
+<body>
+    <form>
+        <h1>Formulário na Tabela</h1>
+        <table border="1" bordercolor="blue">
+            <tr>
+                <td bgcolor="lightgray"><label>Nome: </label></td>
+                <!-- type="text" -> campo de texto simples -->
+                <td><input type="text" size="30"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray"><label>Endereço: </label></td>
+                <!-- type="text" -> campo de texto simples -->
+                <td><input type="text" size="50"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray"><label>Telefone: </label></td>
+                <!-- type="tel" -> campo para entrada de telefone -->
+                <td><input type="tel" size="25"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray"><label>Email: </label></td>
+                <!-- type="email" -> campo para endereço de e-mail -->
+                <td><input type="email" size="30"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray"><label>Data de Nascimento: </label></td>
+                <!-- type="date" -> campo para seleção de data -->
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray"><label>Sexo: </label></td>
+                <td>
+                    <!-- type="radio" -> opção única (somente um pode ser selecionado) -->
+                    <input type="radio" name="sexo" value="masculino"> Masculino
+                    <input type="radio" name="sexo" value="feminino"> Feminino
+                    <input type="radio" name="sexo" value="outro"> Outro
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgrey"><label>Cliente: </label></td>
+                <td>
+                    <!-- type="checkbox" -> opções múltiplas (podem ser várias selecionadas) -->
+                    <input type="checkbox" name="cliente" value="sim"> Comum
+                    <input type="checkbox" name="cliente" value="nao"> Especial
+                </td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray"><label>Foto: </label></td>
+                <!-- type="file" -> permite enviar um arquivo do computador -->
+                <td><input type="file" name="foto"></td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray"><label>Grau: </label></td>
+                <!-- type="range" -> controle deslizante para selecionar um valor -->
+                <td><input type="range" min="0" max="100">Satisfação</td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray"><label>Cor: </label></td>
+                <!-- type="color" -> seletor de cor -->
+                <td><input type="color" name="cor">Cor Preferida!</td>
+            </tr>
+            <tr>
+                <td bgcolor="lightgray"><label>Aura: </label></td>
+                <!-- type="button" -> botão sem ação específica, apenas visual/ação via JS -->
+                <td><input type="button" value="67">Clique para farmar!</td>
+            </tr>
+            <!-- Botões coloridos -->
+            <tr>
+                <td bgcolor="lightgray"><label>Botões: </label></td>
+                <td>
+                    <!-- type="submit" -> envia o formulário -->
+                    <input type="submit" value="Enviar">
+                    <!-- type="reset" -> limpa os campos do formulário -->
+                    <input type="reset" value="Limpar">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

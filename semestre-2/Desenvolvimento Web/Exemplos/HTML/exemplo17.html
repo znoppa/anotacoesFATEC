@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Formulário do Aluno</h1>
+    <fieldset><!--grupo-->
+        <legend>Dados Pessoais</legend><!--rótulo de grupo-->
+        <label>Nome:</label>
+        <input type="text" size="30">
+        <label>Senha provisória:</label>
+        <input type="password" size="5"><br>
+        <label>Sexo:</label>
+        <input type="radio" name="sexo">Feminino
+        <input type="radio" name="sexo">Masculino<br>
+        <input  type="checkbox">Aluno Veterano <br>
+        <p>
+            <label>Escolha o seu curso:</label>
+            <select name="curso">
+                <optgroup label="Exatas">
+                    <option>ADS</option>
+                    <option>Mecatrônica</option>
+                </optgroup>
+                <optgroup label="Humanas">
+                    <option>Gestão Empresarial</option>
+                    <option>Gestão de Marketing</option>
+                </optgroup>
+            </select>
+    </fieldset>
+    <fieldset>
+        <input type="reset" value="Limpar">
+        <input type="submit"value="Gravar">
+    </fieldset>
+</body>
+</html>

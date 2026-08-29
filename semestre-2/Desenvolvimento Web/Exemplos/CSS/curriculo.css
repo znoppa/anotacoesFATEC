@@ -1,0 +1,77 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(141, 2, 141);
+    min-height: 100vh;
+    display: flex; /* Adiciona display flex para centralizar o conteúdo */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+.curriculo{
+    background-color: rgb(179, 0, 140);
+    padding: 40px;
+    margin: 40px auto;
+    max-width: 800px; /* Define a largura máxima do currículo */
+    width: 100%; /* Define a largura como 100% para que ocupe todo o espaço disponível */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra para dar profundidade */
+    position: relative;
+}
+.header{ /* Adiciona um estilo para o cabeçalho do currículo */
+    margin-bottom: 30px; /* Adiciona uma margem inferior para separar o cabeçalho do restante do conteúdo */
+    border-bottom: 2px solid rgb(97, 1, 1); 
+    padding-bottom: 20px;
+}
+.header-content{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding-right: 150px;
+}
+.pfp{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid rgb(230, 145, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+.header-content h1,
+.header-content .profissao,
+.header-content .email,
+.header-content .telefone,
+.header-content .linkedin{
+    margin: 0;
+    max-width: 100%;
+}
+.header-content h1{
+    font-size: clamp(2rem, 3vw, 3.2rem);
+    line-height: 1.1;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+.header-content .profissao{
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+.header-content .email,
+.header-content .telefone,
+.header-content .linkedin{
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+.experiencia{
+    margin-right: 170px; /* espaço para a foto */
+}
+.secao{
+    margin-bottom: 30px;
+    
+}

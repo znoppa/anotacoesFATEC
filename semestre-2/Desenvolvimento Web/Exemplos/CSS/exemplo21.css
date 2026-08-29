@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(241, 208, 192);/*definindo a cor de fundo*/
+    font:100% Verdana, Times New Roman, Sansserif;/*escolhendo fontes*/
+    margin:0;/*distância da margem do navegador*/
+    padding:0;/*distância com relação a margem*/
+}
+#moldura{
+    background-color: rgb(241, 208, 192);
+    width: 80%;/*largura da div*/
+    margin:0 auto;/*distribui automaticamente a margem*/
+}
+#topo{
+    padding: 10px;
+    background-color: rgb(245, 144, 93);
+}
+#conteudo{
+    width: 80%;
+    background-color: rgb(172, 51, 15);
+    min-height: 400px;/*altura mínima*/
+    float: left;
+}
+#navegacao{
+    width: 18%;
+    background-color: rgb(214, 92, 35);
+    float: left;
+    min-height: 400px;
+    padding-left: 20px;
+}
+#rodape{
+    clear: both;/*limpa as formatacoes anteriores*/
+    background-color: rgb(114, 42, 0);
+    padding: 10px;
+}
