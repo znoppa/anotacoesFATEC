@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 20 - Exemplo parseFloat</title>
+</head>
+<body>
+    <script type="text/javascript">
+        var num1=parseFloat("5") + "<br>";
+        var num2=parseFloat("5.00") + "<br>";
+        var num3=parseFloat("5.11") + "<br>";
+        var num4=parseFloat("14 25 11") + "<br>";
+        var num5=parseFloat("25 anos") + "<br>";
+        var num6=parseFloat("5",5) + "<br>";
+        var num8=parseFloat("050") + "<br>";
+        var num9=parseFloat("0x50") + "<br>";
+
+        var resultado = num1 + num2 + num3 + num4 + num5 + num6 + num8 + num9;
+        document.write(resultado);
+    </script>
+</body>
+</html>

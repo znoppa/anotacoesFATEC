@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura (struct)</title>
+</head>
+<body>
+    <script>
+        var quemSou={
+            nome: "João",
+            idade: 20,
+            cidade: "São Paulo",
+            profissao: "Programador"
+        }
+        for(var prop in quemSou){
+            document.write(prop+"="+quemSou[prop]+"<br>");
+        }
+    </script>
+</body>
+</html>
