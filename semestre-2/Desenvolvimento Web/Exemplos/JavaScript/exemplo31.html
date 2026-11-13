@@ -7,9 +7,18 @@
 </head>
 <body>
     <script type="text/javascript">
+
+        // Aqui eu criei uma função pra funcionar como randint
+        function randint(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+
         function sorteio(){
-            a=randint(0,10);
-            return a;
+            num = randint(1, 9);
+            return num;
         }
         document.write("<font size=7><b>SETE DA SORTE</b></font><br>")
         var a = sorteio();
