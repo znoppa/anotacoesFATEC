@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="conteudo">
+        <h1 align="center">ESTACIONAMENTO</h1>
+        <label>Entre com o valor da hora:</label>
+        <select id="veiculo">
+            <option>---</option>
+            <option>Passeio</option>
+            <option>Moto</option>
+            <option>Util.</option>
+        </select><br>
+        <label>Entre com o valor à hora:</label>
+        <input type="number" id="valor"><br>
+        <label>Entre com a quantidade de horas:</label>
+        <input type="number" id="qtd"><br>
+        <p id="total"></p><br>
+        <center><button onclick="calcular()">CALCULAR</button></center>
+    </div>
+    <script type="text/javascript">
+        function calcular(){
+            var veiculo = document.getElementById("veiculo").value;
+            var vhora = parseFloat(document.getElementById("valor").value);
+            var tempo = parseFloat(document.getElementById("qtd").value);
+            var total = vhora*tempo;
+            if(veiculo==="---"){
+                alert("Tipo de veículo inválido, tente novamente!")
+                return;
+            }
+            document.getElementById("total").innerHTML = "O veículo de tipo "+ veiculo+ " pagará "+total.toFixed(2)+ "R$"
+        }
+    </script>
+</body>
+</html>

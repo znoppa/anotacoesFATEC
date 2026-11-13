@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculo IMC</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            margin: 0;
+            display: grid;
+            place-items: center;
+            padding: 24px;
+            font-family: "Segoe UI", Arial, sans-serif;
+            color: #1f2937;
+            background: linear-gradient(135deg, #dbeafe, #f5d0fe);
+        }
+
+        .conteudo {
+            width: min(100%, 440px);
+            padding: 36px;
+            border: 1px solid rgba(255, 255, 255, 0.75);
+            border-radius: 20px;
+            background: rgba(255, 255, 255, 0.92);
+            box-shadow: 0 20px 50px rgba(49, 46, 129, 0.16);
+        }
+
+        h1 {
+            margin: 0 0 28px;
+            color: #4338ca;
+            font-size: 1.8rem;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin: 18px 0 8px;
+            font-weight: 600;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px 14px;
+            border: 1px solid #cbd5e1;
+            border-radius: 10px;
+            outline: none;
+            font: inherit;
+            transition: border-color 0.2s, box-shadow 0.2s;
+        }
+
+        input:focus {
+            border-color: #6366f1;
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+        }
+
+        #total,
+        #mensagem {
+            margin: 16px 0 0;
+            text-align: center;
+        }
+
+        #total {
+            color: #4338ca;
+            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+        #mensagem {
+            color: #475569;
+        }
+
+        button {
+            width: 100%;
+            margin-top: 24px;
+            padding: 13px 18px;
+            border: 0;
+            border-radius: 10px;
+            color: white;
+            background: #4f46e5;
+            font: inherit;
+            font-weight: 700;
+            cursor: pointer;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        button:hover {
+            background: #4338ca;
+            transform: translateY(-2px);
+        }
+
+        button:focus-visible {
+            outline: 3px solid #a5b4fc;
+            outline-offset: 3px;
+        }
+
+        @media (max-width: 480px) {
+            .conteudo {
+                padding: 28px 22px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="conteudo">
+        <h1>Calculando o IMC</h1>
+        <label>Digite a sua altura (em metros): </label>
+        <input type="number" id="height" min="0.1" step="0.01"><br>
+        <label>Digite o seu peso (em kg): </label>
+        <input type="number" id="weight" min="0.1" step="0.1"><br>
+        <p id="total"></p>
+        <br>
+        <p id="mensagem"></p>
+        <center><button type="button" onclick="calcular()">CALCULAR</button></center>
+    </div>
+    <script type="text/javascript">
+        function calcular() {
+            var h = parseFloat(document.getElementById("height").value);
+            var w = parseFloat(document.getElementById("weight").value);
+            
+            var imc = w / (h * h);
+            document.getElementById("total").innerHTML = "Seu IMC: " + imc.toFixed(2);
+
+            var mensagem;
+            if (imc < 18.5) mensagem = "Abaixo do peso";
+            else if (imc < 25) mensagem = "Peso normal";
+            else if (imc < 30) mensagem = "Sobrepeso";
+            else if (imc < 35) mensagem = "Obesidade grau 1";
+            else if (imc < 40) mensagem = "Obesidade grau 2";
+            else mensagem = "Obesidade grau 3";
+
+            document.getElementById("mensagem").innerHTML = mensagem;
+        }
+    </script>
+</body>
+</html>
