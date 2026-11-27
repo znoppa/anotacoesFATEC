@@ -1,0 +1,900 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portal Celestial | Central de Comando</title>
+
+<style>
+:root {
+    --bg: #060911;
+    --panel: #0d1422;
+    --text: #f6f3eb;
+    --muted: #95a2b7;
+    --accent: #eac47b;
+    --accent-rgb: 234, 196, 123;
+    --line: #28334a;
+}
+
+body[data-mode="orion"] {
+    --accent: #72cfff;
+    --accent-rgb: 114, 207, 255;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Arial, sans-serif;
+    color: var(--text);
+    background:
+        radial-gradient(ellipse at 80% 10%, #152340, transparent 45%),
+        radial-gradient(ellipse at 5% 80%, #21192b, transparent 40%),
+        var(--bg);
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    opacity: .2;
+    background-image:
+        radial-gradient(#fff 1px, transparent 1px);
+    background-size: 80px 80px;
+}
+
+button, a {
+    font: inherit;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    width: min(1320px, calc(100% - 48px));
+    margin: auto;
+}
+
+/* NAVEGAÇÃO */
+.header {
+    position: relative;
+    z-index: 2;
+    border-bottom: 1px solid var(--line);
+    background: rgba(6, 9, 17, .85);
+    backdrop-filter: blur(15px);
+}
+
+.nav {
+    min-height: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.logo-symbol {
+    display: grid;
+    place-items: center;
+    height: 42px;
+    width: 42px;
+    color: var(--accent);
+    font-size: 25px;
+    border: 1px solid var(--accent);
+    box-shadow: 0 0 15px rgba(var(--accent-rgb), .15);
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links a {
+    color: var(--muted);
+    font-size: 12px;
+    letter-spacing: 1px;
+    transition: color .2s;
+}
+
+.nav-links a:hover {
+    color: var(--accent);
+}
+
+.theme-controls {
+    display: flex;
+    gap: 7px;
+}
+
+.theme-btn {
+    background: transparent;
+    border: 1px solid var(--line);
+    color: var(--muted);
+    padding: 10px 14px;
+    font-size: 11px;
+    letter-spacing: 1px;
+}
+
+.theme-btn.active {
+    color: var(--accent);
+    border-color: var(--accent);
+    background: rgba(var(--accent-rgb), .07);
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    margin-top: 45px;
+    min-height: 480px;
+    padding: clamp(30px, 5vw, 65px);
+    background:
+        linear-gradient(110deg, #10192be8, #0a101de8);
+    border: 1px solid rgba(var(--accent-rgb), .24);
+    display: grid;
+    grid-template-columns: 1.1fr .9fr;
+    align-items: center;
+    gap: 25px;
+    overflow: hidden;
+    clip-path: polygon(
+        0 0,
+        calc(100% - 30px) 0,
+        100% 30px,
+        100% 100%,
+        30px 100%,
+        0 calc(100% - 30px)
+    );
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background: var(--accent);
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 20px var(--accent);
+}
+
+.eyebrow {
+    color: var(--accent);
+    font-size: 11px;
+    letter-spacing: 4px;
+    font-weight: 700;
+}
+
+.hero h1 {
+    font-size: clamp(43px, 5vw, 74px);
+    line-height: 1.08;
+    font-weight: 300;
+    letter-spacing: -2px;
+    margin: 25px 0;
+}
+
+.hero h1 strong {
+    display: block;
+    font-weight: 500;
+    color: var(--accent);
+    text-shadow: 0 0 35px rgba(var(--accent-rgb), .18);
+}
+
+.hero p {
+    max-width: 470px;
+    font-size: 15px;
+    line-height: 1.9;
+    color: var(--muted);
+}
+
+.primary-btn {
+    display: inline-block;
+    margin-top: 26px;
+    border: 1px solid var(--accent);
+    background: var(--accent);
+    color: #080d15;
+    padding: 17px 27px;
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    transition: .25s;
+}
+
+.primary-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 25px rgba(var(--accent-rgb), .25);
+}
+
+/* VISUALIZAÇÃO ORBITAL */
+.celestial-view {
+    height: 340px;
+    display: grid;
+    place-items: center;
+    position: relative;
+    isolation: isolate;
+}
+
+.celestial-view::before {
+    content: "";
+    position: absolute;
+    height: 280px;
+    width: 280px;
+    background: rgba(var(--accent-rgb), .09);
+    border-radius: 50%;
+    filter: blur(60px);
+}
+
+.orbit {
+    position: absolute;
+    border: 1px solid rgba(var(--accent-rgb), .32);
+    border-radius: 50%;
+}
+
+.orbit.outer {
+    width: 325px;
+    height: 325px;
+    border-style: dashed;
+    animation: spin 40s linear infinite;
+}
+
+.orbit.middle {
+    width: 275px;
+    height: 275px;
+    border-color: rgba(var(--accent-rgb), .55);
+    animation: spin 24s linear infinite reverse;
+}
+
+.orbit.inner {
+    width: 240px;
+    height: 100px;
+    transform: rotate(-35deg);
+}
+
+.orbit.outer::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 45px;
+    left: 45px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 20px var(--accent);
+}
+
+.planet {
+    position: relative;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    background:
+        radial-gradient(circle at 30% 25%, #fff2c5, #dfab62 15%, #76533f 43%, #0a1427 75%);
+    box-shadow:
+        0 0 50px rgba(var(--accent-rgb), .25),
+        inset -22px -20px 35px #060911;
+    animation: hover 5s ease-in-out infinite;
+}
+
+body[data-mode="orion"] .planet {
+    background:
+        radial-gradient(circle at 30% 25%, #f8ffff, #79d3ff 15%, #235d90 43%, #08142d 75%);
+}
+
+.planet::after {
+    content: "";
+    position: absolute;
+    inset: -12px;
+    border-radius: 50%;
+    border: 1px solid rgba(var(--accent-rgb), .4);
+}
+
+.planet-label {
+    position: absolute;
+    bottom: -5px;
+    text-align: center;
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 4px;
+}
+
+@keyframes spin {
+    to { transform: rotate(360deg); }
+}
+
+@keyframes hover {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-12px); }
+}
+
+/* FAIXA DE INFORMAÇÕES */
+.info-strip {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 18px;
+    border: 1px solid var(--line);
+    background: rgba(13, 20, 34, .75);
+}
+
+.info-item {
+    padding: 23px 28px;
+    border-right: 1px solid var(--line);
+}
+
+.info-item:last-child {
+    border-right: 0;
+}
+
+.info-item small {
+    display: block;
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: var(--muted);
+    margin-bottom: 10px;
+}
+
+.info-item strong {
+    font-weight: 500;
+    color: var(--accent);
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+/* MÓDULOS */
+.modules {
+    padding: 95px 0 55px;
+}
+
+.section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 20px;
+    margin-bottom: 35px;
+}
+
+.section-heading h2 {
+    font-size: clamp(29px, 4vw, 40px);
+    font-weight: 400;
+    margin: 12px 0 0;
+}
+
+.section-heading p {
+    color: var(--muted);
+    font-size: 12px;
+    max-width: 260px;
+    line-height: 1.7;
+}
+
+.module-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 18px;
+}
+
+.module {
+    text-align: left;
+    background: rgba(13, 20, 34, .9);
+    border: 1px solid var(--line);
+    padding: 30px;
+    color: var(--text);
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    transition: .25s;
+}
+
+.module:hover, .module.active {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+    background: rgba(var(--accent-rgb), .055);
+    box-shadow: 0 12px 40px #0003;
+}
+
+.module-number {
+    color: var(--accent);
+    font-size: 12px;
+    letter-spacing: 3px;
+}
+
+.module-icon {
+    font-size: 36px;
+    color: var(--accent);
+    margin: 20px 0;
+}
+
+.module h3 {
+    font-size: 21px;
+    font-weight: 500;
+    margin: 0 0 12px;
+}
+
+.module p {
+    font-size: 13px;
+    color: var(--muted);
+    line-height: 1.7;
+    margin: 0;
+}
+
+.module-arrow {
+    margin-top: auto;
+    padding-top: 20px;
+    color: var(--accent);
+    font-size: 20px;
+    align-self: flex-end;
+}
+
+/* PAINEL DE DETALHES */
+.detail-panel {
+    margin-top: 24px;
+    padding: 32px;
+    border: 1px solid rgba(var(--accent-rgb), .24);
+    background: linear-gradient(120deg, #111b2d, #0a101c);
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 30px;
+    align-items: center;
+}
+
+.detail-panel h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 12px 0;
+}
+
+.detail-panel p {
+    color: var(--muted);
+    line-height: 1.7;
+    font-size: 13px;
+    max-width: 640px;
+}
+
+.detail-tag {
+    padding: 12px 16px;
+    border: 1px solid rgba(var(--accent-rgb), .3);
+    color: var(--accent);
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 30px 0;
+    border-top: 1px solid var(--line);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: var(--muted);
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 900px) {
+    .hero {
+        grid-template-columns: 1fr;
+    }
+
+    .celestial-view {
+        height: 280px;
+    }
+
+    .module-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-links {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: min(100% - 28px, 1320px);
+    }
+
+    .nav {
+        flex-wrap: wrap;
+        padding: 20px 0;
+    }
+
+    .hero {
+        margin-top: 20px;
+        padding: 30px 22px;
+    }
+
+    .hero h1 {
+        font-size: 43px;
+    }
+
+    .info-strip {
+        grid-template-columns: 1fr;
+    }
+
+    .info-item {
+        border-right: none;
+        border-bottom: 1px solid var(--line);
+    }
+
+    .info-item:last-child {
+        border-bottom: none;
+    }
+
+    .section-heading, .detail-panel, .footer {
+        display: block;
+    }
+
+    .detail-tag {
+        display: inline-block;
+        margin-top: 15px;
+    }
+
+    .orbit.outer {
+        width: 245px;
+        height: 245px;
+    }
+
+    .orbit.middle {
+        width: 215px;
+        height: 215px;
+    }
+
+    .orbit.inner {
+        width: 195px;
+        height: 80px;
+    }
+
+    .planet {
+        width: 130px;
+        height: 130px;
+    }
+
+    .footer span {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: .01ms !important;
+        transition-duration: .01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+</style>
+</head>
+
+<body data-mode="sirius">
+
+<header class="header">
+    <nav class="container nav" aria-label="Navegação principal">
+
+        <a href="#inicio" class="logo">
+            <div class="logo-symbol">✦</div>
+            CELESTIAL / SYSTEM
+        </a>
+
+        <div class="nav-links">
+            <a href="#inicio">INÍCIO</a>
+            <a href="#modulos">MÓDULOS</a>
+        </div>
+
+        <div class="theme-controls" aria-label="Temas">
+            <button type="button" class="theme-btn active"
+                    data-theme="sirius" aria-pressed="true">
+                SIRIUS
+            </button>
+
+            <button type="button" class="theme-btn"
+                    data-theme="orion" aria-pressed="false">
+                ORION
+            </button>
+        </div>
+
+    </nav>
+</header>
+
+<main class="container" id="inicio">
+
+    <section class="hero">
+
+        <div class="hero-content">
+            <div class="eyebrow">
+                ✦ CENTRAL DE COMANDO / 001
+            </div>
+
+            <h1>
+                Bem-vindo ao
+                <strong>seu universo.</strong>
+            </h1>
+
+            <p>
+                O conhecimento é a chave para explorar o desconhecido.
+                Sua central de comando está preparada para receber
+                as operações do seu banco de dados.
+            </p>
+
+            <button type="button" class="primary-btn" id="exploreButton">
+                EXPLORAR MÓDULOS ↗
+            </button>
+        </div>
+
+        <div class="celestial-view" aria-hidden="true">
+            <div class="orbit outer"></div>
+            <div class="orbit middle"></div>
+            <div class="orbit inner"></div>
+            <div class="planet"></div>
+            <div class="planet-label" id="planetName">
+                SIRIUS // SOLAR
+            </div>
+        </div>
+
+    </section>
+
+    <section class="info-strip" aria-label="Informações da interface">
+
+        <div class="info-item">
+            <small>AMBIENTE</small>
+            <strong>DESENVOLVIMENTO LOCAL</strong>
+        </div>
+
+        <div class="info-item">
+            <small>IDENTIDADE SELECIONADA</small>
+            <strong id="currentTheme">SIRIUS</strong>
+        </div>
+
+        <div class="info-item">
+            <small>HORÁRIO LOCAL</small>
+            <strong id="clock">--:--:--</strong>
+        </div>
+
+    </section>
+
+    <section class="modules" id="modulos">
+
+        <div class="section-heading">
+            <div>
+                <div class="eyebrow">EXPLORAR / SISTEMA</div>
+                <h2>Módulos disponíveis</h2>
+            </div>
+
+            <p>
+                Selecione um módulo para visualizar
+                sua função no ambiente de testes.
+            </p>
+        </div>
+
+        <div class="module-grid">
+
+            <button type="button"
+                    class="module active"
+                    data-module="usuarios"
+                    aria-pressed="true">
+
+                <span class="module-number">01 / IDENTIDADE</span>
+                <span class="module-icon">◎</span>
+
+                <h3>Usuários</h3>
+
+                <p>
+                    Estrutura para visualizar e gerenciar
+                    os registros de usuários.
+                </p>
+
+                <span class="module-arrow">↗</span>
+            </button>
+
+            <button type="button"
+                    class="module"
+                    data-module="consultas"
+                    aria-pressed="false">
+
+                <span class="module-number">02 / DADOS</span>
+                <span class="module-icon">⌘</span>
+
+                <h3>Consultas SQL</h3>
+
+                <p>
+                    Espaço reservado para integração de
+                    consultas e resultados do banco.
+                </p>
+
+                <span class="module-arrow">↗</span>
+            </button>
+
+            <button type="button"
+                    class="module"
+                    data-module="operacoes"
+                    aria-pressed="false">
+
+                <span class="module-number">03 / CONTROLE</span>
+                <span class="module-icon">◇</span>
+
+                <h3>Operações</h3>
+
+                <p>
+                    Planejamento de operações para
+                    inserção, edição e exclusão de dados.
+                </p>
+
+                <span class="module-arrow">↗</span>
+            </button>
+
+        </div>
+
+        <div class="detail-panel" aria-live="polite">
+
+            <div>
+                <div class="eyebrow" id="detailCode">
+                    PROTOCOLO / USUÁRIOS
+                </div>
+
+                <h3 id="detailTitle">
+                    Gerenciamento de usuários
+                </h3>
+
+                <p id="detailDescription">
+                    Este módulo poderá receber uma tabela com os
+                    usuários cadastrados, permitindo consultar os
+                    registros do banco de dados através do PHP.
+                </p>
+            </div>
+
+            <div class="detail-tag">
+                MÓDULO DEMONSTRATIVO
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+<footer class="container footer">
+    <span>✦ CELESTIAL SYSTEM / SIRIUS & ORION</span>
+    <span>INTERFACE LOCAL — HTML / CSS / JAVASCRIPT</span>
+</footer>
+
+<script>
+const body = document.body;
+const themeButtons = document.querySelectorAll("[data-theme]");
+const moduleButtons = document.querySelectorAll("[data-module]");
+const clock = document.getElementById("clock");
+
+const moduleData = {
+    usuarios: {
+        code: "PROTOCOLO / USUÁRIOS",
+        title: "Gerenciamento de usuários",
+        description:
+            "Este módulo poderá receber uma tabela com os usuários cadastrados, permitindo consultar os registros do banco de dados através do PHP."
+    },
+
+    consultas: {
+        code: "PROTOCOLO / CONSULTAS SQL",
+        title: "Exploração de dados",
+        description:
+            "Área preparada para exibir os resultados de consultas SQL. A execução real deverá ser implementada no PHP, com acesso controlado ao banco de dados."
+    },
+
+    operacoes: {
+        code: "PROTOCOLO / OPERAÇÕES",
+        title: "Controle de registros",
+        description:
+            "Este módulo poderá reunir formulários para inserir, editar e excluir informações, com validação e autorização realizadas no servidor."
+    }
+};
+
+// ALTERNÂNCIA ENTRE SIRIUS E ORION
+function setTheme(theme) {
+    const selected = theme === "orion" ? "orion" : "sirius";
+
+    body.dataset.mode = selected;
+
+    themeButtons.forEach(button => {
+        const active = button.dataset.theme === selected;
+        button.classList.toggle("active", active);
+        button.setAttribute("aria-pressed", String(active));
+    });
+
+    document.getElementById("currentTheme").textContent =
+        selected.toUpperCase();
+
+    document.getElementById("planetName").textContent =
+        selected === "sirius"
+            ? "SIRIUS // SOLAR"
+            : "ORION // CELESTIAL";
+
+    try {
+        localStorage.setItem("celestialTheme", selected);
+    } catch (e) {
+        // O tema continua funcionando sem armazenamento.
+    }
+}
+
+themeButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        setTheme(button.dataset.theme);
+    });
+});
+
+try {
+    setTheme(localStorage.getItem("celestialTheme") || "sirius");
+} catch (e) {
+    setTheme("sirius");
+}
+
+// RELÓGIO LOCAL
+function updateClock() {
+    clock.textContent = new Intl.DateTimeFormat("pt-BR", {
+        hour: "2-digit",
+        minute: "2-digit",
+        second: "2-digit",
+        hour12: false
+    }).format(new Date());
+}
+
+updateClock();
+setInterval(updateClock, 1000);
+
+// SELEÇÃO INTERATIVA DOS MÓDULOS
+moduleButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const id = button.dataset.module;
+        const module = moduleData[id];
+
+        if (!module) return;
+
+        moduleButtons.forEach(item => {
+            const active = item === button;
+            item.classList.toggle("active", active);
+            item.setAttribute("aria-pressed", String(active));
+        });
+
+        document.getElementById("detailCode").textContent =
+            module.code;
+
+        document.getElementById("detailTitle").textContent =
+            module.title;
+
+        document.getElementById("detailDescription").textContent =
+            module.description;
+    });
+});
+
+// NAVEGAÇÃO PARA OS MÓDULOS
+document.getElementById("exploreButton").addEventListener(
+    "click",
+    () => {
+        document.getElementById("modulos").scrollIntoView({
+            behavior: window.matchMedia(
+                "(prefers-reduced-motion: reduce)"
+            ).matches ? "instant" : "smooth"
+        });
+    }
+);
+</script>
+
+</body>
+</html>
